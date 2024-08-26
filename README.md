@@ -78,8 +78,13 @@ A curated list of research papers and datasets related to image and video deblur
 | Venue | Paper | Link |
 |-------|-------|------|
 | CVPR | [Explore Image Deblurring via Encoded Blur Kernel Space](https://openaccess.thecvf.com//content/CVPR2021/html/Tran_Explore_Image_Deblurring_via_Encoded_Blur_Kernel_Space_CVPR_2021_paper.html) | [Blur-Kernel-Space-Exploring](https://github.com/VinAIResearch/blur-kernel-space-exploring) |
-| ICCV      | [Rethinking Coarse-to-Fine Approach in Single Image Deblurring](https://arxiv.org/abs/2108.05054) | [MIMO-UNet](https://github.com/chosj95/MIMO-UNet) |
-| CVPR      | [Multi-Stage Progressive Image Restoration](https://arxiv.org/abs/2102.02808) | [MPRNet](https://github.com/swz30/MPRNet) |
+| ICCV  | [Rethinking Coarse-to-Fine Approach in Single Image Deblurring](https://arxiv.org/abs/2108.05054) | [MIMO-UNet](https://github.com/chosj95/MIMO-UNet) |
+| CVPR  | [Multi-Stage Progressive Image Restoration](https://arxiv.org/abs/2102.02808) | [MPRNet](https://github.com/swz30/MPRNet) |
+| CVPR  | [DeFMO: Deblurring and Shape Recovery of Fast Moving Objects](https://arxiv.org/abs/2012.00595) | [DeFMO](https://github.com/rozumden/DeFMO) |
+| CVPR  | [ARVo: Learning All-Range Volumetric Correspondence for Video Deblurring](https://arxiv.org/abs/2103.04260) | - |
+| CVPR  | [Towards Rolling Shutter Correction and Deblurring in Dynamic Scenes](https://arxiv.org/abs/2104.01601) | [RSCD](https://github.com/zzh-tech/RSCD) |
+| CVPR  | [Digital Gimbal: End-to-end Deep Image Stabilization with Learnable Exposure Times](https://arxiv.org/abs/2012.04515) | [Digital Gimbal](https://github.com/omer11a/digital-gimbal) |
+
 
 ## 2020 Papers
 | Venue | Paper | Link |
