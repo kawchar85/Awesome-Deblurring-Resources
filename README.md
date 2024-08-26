@@ -18,7 +18,6 @@ A curated list of research papers and datasets related to image and video deblur
 | arxiv | [Blind Image Deblurring using FFT-ReLU with Deep Learning Pipeline Integration](https://arxiv.org/abs/2406.08344v1) | [Code](https://github.com/Metalicana/Blind-Image-Deblurring-using-FFT-ReLU-with-Deep-Learning-Pipeline-Integration) |
 | arxiv | [Fast Diffusion EM: a diffusion model for blind inverse problems with application to deconvolution](https://arxiv.org/abs/2309.00287v2) | [FastDiffusionEM](https://github.com/claroche-r/fastdiffusionem) |
 | SPIE | [Estimation of motion blur kernel parameters using regression convolutional neural networks](https://arxiv.org/abs/2308.01381v3) | [RegressionBlur](https://github.com/duckduckpig/regression_blur) |
-| CVPR | [Unsupervised Blind Image Deblurring Based on Self-Enhancement](https://openaccess.thecvf.com//content/CVPR2024/html/Chen_Unsupervised_Blind_Image_Deblurring_Based_on_Self-Enhancement_CVPR_2024_paper.html) | - |
 | CVPR | [A Unified Framework for Microscopy Defocus Deblur with Multi-Pyramid Transformer and Contrastive Learning](https://arxiv.org/abs/2403.02611) | [MPT-CataBlur](https://github.com/PieceZhang/MPT-CataBlur) |
 | CVPR | [AdaRevD: Adaptive Patch Exiting Reversible Decoder Pushes the Limit of Image Deblurring](https://arxiv.org/abs/2406.09135) | [AdaRevD](https://github.com/INVOKERer/AdaRevD) |
 | CVPR | [Blur2Blur: Blur Conversion for Unsupervised Image Deblurring on Unknown Domains](https://arxiv.org/abs/2403.16205) | [Blur2Blur](https://github.com/VinAIResearch/Blur2Blur) |
@@ -27,6 +26,14 @@ A curated list of research papers and datasets related to image and video deblur
 | CVPR | [LDP: Language-driven Dual-Pixel Image Defocus Deblurring Network](https://arxiv.org/abs/2307.09815) | [LDP](https://github.com/noxsine/LDP) |
 | CVPR | [Mitigating Motion Blur in Neural Radiance Fields with Events and Frames](https://arxiv.org/abs/2403.19780) | [EvDeblurNeRF](https://github.com/uzh-rpg/EvDeblurNeRF) |
 | CVPR | [Motion-adaptive Separable Collaborative Filters for Blind Motion Deblurring](https://arxiv.org/abs/2404.13153) | [MISCFilter](https://github.com/ChengxuLiu/MISCFilter) |
+| CVPR  | [Motion Blur Decomposition with Cross-shutter Guidance](https://arxiv.org/abs/2404.01120) | [dualBR](https://github.com/jixiang2016/dualBR) |
+| CVPR  | [Spike-guided Motion Deblurring with Unknown Modal Spatiotemporal Alignment](https://openaccess.thecvf.com//content/CVPR2024/html/Zhang_Spike-guided_Motion_Deblurring_with_Unknown_Modal_Spatiotemporal_Alignment_CVPR_2024_paper.html) | [UaSDN](https://github.com/Leozhangjiyuan/UaSDN) |
+| CVPR  | [Blur-aware Spatio-temporal Sparse Transformer for Video Deblurring](https://arxiv.org/abs/2406.07551) | [BSSTNet](https://github.com/huicongzhang/BSSTNet) |
+| CVPR | [Unsupervised Blind Image Deblurring Based on Self-Enhancement](https://openaccess.thecvf.com//content/CVPR2024/html/Chen_Unsupervised_Blind_Image_Deblurring_Based_on_Self-Enhancement_CVPR_2024_paper.html) | - |
+| CVPR  | [Real-World Efficient Blind Motion Deblurring via Blur Pixel Discretization](https://arxiv.org/abs/2404.12168) | - |
+| CVPR  | [EVS-assisted Joint Deblurring Rolling-Shutter Correction and Video Frame Interpolation through Sensor Inverse Modeling](https://openaccess.thecvf.com/content/CVPR2024/papers/Jiang_EVS-assisted_Joint_Deblurring_Rolling-Shutter_Correction_and_Video_Frame_Interpolation_through_CVPR_2024_paper.pdf) | - |
+| CVPR  | [Latency Correction for Event-guided Deblurring and Frame Interpolation](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Latency_Correction_for_Event-guided_Deblurring_and_Frame_Interpolation_CVPR_2024_paper.pdf) | - |
+| CVPR  | [Frequency-aware Event-based Video Deblurring for Real-World Motion Blur](https://openaccess.thecvf.com/content/CVPR2024/html/Kim_Frequency-aware_Event-based_Video_Deblurring_for_Real-World_Motion_Blur_CVPR_2024_paper.html) | - |
 | arXiv     | [Gyroscope-Assisted Motion Deblurring Network](https://arxiv.org/abs/2402.06854) | - |
 | arXiv     | [Gyro-based Neural Single Image Deblurring](https://arxiv.org/abs/2404.00916) | - |
 
