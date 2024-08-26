@@ -65,6 +65,14 @@ A curated list of research papers and datasets related to image and video deblur
 | ECCVW | [MSSNet: Multi-Scale-Stage Network for Single Image Deblurring](https://arxiv.org/abs/2202.09652) | [MSSNet](https://github.com/kky7/MSSNet) |
 | CVPRW | [HINet: Half Instance Normalization Network for Image Restoration](https://arxiv.org/abs/2105.06086) | [HINet](https://github.com/megvii-model/HINet) |
 | TIP   | [BANet: A Blur-Aware Attention Network for Dynamic Scene Deblurring](https://arxiv.org/abs/2101.07518) | [BANet](https://github.com/pp00704831/BANet-TIP-2022) |
+| CVPR  | [Learning to Deblur using Light Field Generated and Real Defocus Images](https://arxiv.org/abs/2204.00367) | [DRBNet](https://github.com/lingyanruan/DRBNet) |
+| CVPR  | [Pixel Screening Based Intermediate Correction for Blind Deblurring](https://ieeexplore.ieee.org/document/9878959) | - |
+| CVPR  | [Deblurring via Stochastic Refinement](https://openaccess.thecvf.com/content/CVPR2022/html/Whang_Deblurring_via_Stochastic_Refinement_CVPR_2022_paper.html) | - |
+| CVPR  | [XYDeblur: Divide and Conquer for Single Image Deblurring](https://ieeexplore.ieee.org/document/9880408) | - |
+| CVPR  | [Unifying Motion Deblurring and Frame Interpolation with Events](https://arxiv.org/abs/2203.12178) | [EVDI](https://github.com/XiangZ-0/EVDI) |
+| CVPR  | [E-CIR: Event-Enhanced Continuous Intensity Recovery](https://arxiv.org/abs/2203.01935) | [E-CIR](https://github.com/chensong1995/E-CIR) |
+| CVPR  | [Multi-Scale Memory-Based Video Deblurring](https://arxiv.org/abs/2203.01935) | [MemDeblur](https://github.com/jibo27/MemDeblur) |
+
 
 ## 2021 Papers
 | Venue | Paper | Link |
