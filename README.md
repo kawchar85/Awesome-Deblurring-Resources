@@ -47,6 +47,17 @@ A curated list of research papers and datasets related to image and video deblur
 | ICCV      | [Multi-scale Residual Low-Pass Filter Network for Image Deblurring](https://ieeexplore.ieee.org/document/10377577) | - |
 | TCSVT     | [Multi-Scale Frequency Separation Network for Image Deblurring](https://arxiv.org/abs/2206.00798) | [MSFS-Net](https://github.com/LiQiang0307/MSFS-Net) |
 | ICML      | [IRNeXt: Rethinking Convolutional Network Design for Image Restoration](https://dl.acm.org/doi/10.5555/3618408.3618669) | [IRNeXt](https://github.com/c-yn/IRNeXt) |
+| CVPR  | [Structured Kernel Estimation for Photon-Limited Deconvolution](https://arxiv.org/abs/2303.03472) | [structured-kernel-cvpr23](https://github.com/sanghviyashiitb/structured-kernel-cvpr23) |
+| CVPR  | [Blur Interpolation Transformer for Real-World Motion from Blur](https://arxiv.org/abs/2211.11423) | [BiT](https://github.com/zzh-tech/BiT) |
+| CVPR  | [Neumann Network with Recursive Kernels for Single Image Defocus Deblurring](https://openaccess.thecvf.com/content/CVPR2023/papers/Quan_Neumann_Network_With_Recursive_Kernels_for_Single_Image_Defocus_Deblurring_CVPR_2023_paper.pdf) | [NRKNet](https://github.com/csZcWu/NRKNet) |
+| CVPR  | [Efficient Frequency Domain-based Transformers for High-Quality Image Deblurring](https://arxiv.org/abs/2211.12250) | [FFTformer](https://github.com/kkkls/FFTformer) |
+| CVPR  | [Hybrid Neural Rendering for Large-Scale Scenes with Motion Blur](https://arxiv.org/abs/2304.12652) | [HybridNeuralRendering](https://github.com/CVMI-Lab/HybridNeuralRendering) |
+| CVPR  | [Self-Supervised Non-Uniform Kernel Estimation With Flow-Based Motion Prior for Blind Image Deblurring](https://openaccess.thecvf.com/content/CVPR2023/html/Fang_Self-Supervised_Non-Uniform_Kernel_Estimation_With_Flow-Based_Motion_Prior_for_Blind_CVPR_2023_paper.html) | [UFPDeblur](https://github.com/Fangzhenxuan/UFPDeblur) |
+| CVPR  | [Uncertainty-Aware Unsupervised Image Deblurring with Deep Residual Prior](https://arxiv.org/abs/2210.05361) | [UAUDeblur](https://github.com/xl-tang01/UAUDeblur) |
+| CVPR  | [K3DN: Disparity-Aware Kernel Estimation for Dual-Pixel Defocus Deblurring](https://openaccess.thecvf.com/content/CVPR2023/html/Yang_K3DN_Disparity-Aware_Kernel_Estimation_for_Dual-Pixel_Defocus_Deblurring_CVPR_2023_paper.html) | - |
+| CVPR  | [Self-Supervised Blind Motion Deblurring With Deep Expectation Maximization](https://ieeexplore.ieee.org/document/10203880) | - |
+| CVPR  | [HyperCUT: Video Sequence from a Single Blurry Image using Unsupervised Ordering](https://arxiv.org/abs/2304.01686) | [HyperCUT](https://github.com/VinAIResearch/HyperCUT) |
+| CVPR  | [Deep Discriminative Spatial and Temporal Network for Efficient Video Deblurring](https://ieeexplore.ieee.org/document/10204041) | [DSTNet](https://github.com/xuboming8/DSTNet) |
 
 ## 2022 Papers
 | Venue | Paper | Link |
