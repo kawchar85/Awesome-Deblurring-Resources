@@ -95,7 +95,15 @@ A curated list of research papers and datasets related to image and video deblur
 | ECCV | [End-to-end Interpretable Learning of Non-blind Image Deblurring](https://arxiv.org/abs/2007.01769v2) | [CPCR](https://github.com/teboli/CPCR) |
 | IJCV | [Spatially-Adaptive Filter Units for Compact and Efficient Deep Neural Networks](https://arxiv.org/abs/1902.07474v2) | [DAU-ConvNet](https://github.com/skokec/DAU-ConvNet) |
 | TNNLS | [Learning Deep Gradient Descent Optimization for Image Deconvolution](https://arxiv.org/abs/1804.03368v2) | [Learn-Optimizer-RGDN](https://github.com/donggong1/learn-optimizer-rgdn) |
-| TCSVT     | [Deep Convolutional-Neural-Network-Based Channel Attention for Single Image Dynamic Scene Blind Deblurring](https://ieeexplore.ieee.org/document/9247132) | - |
+| TCSVT | [Deep Convolutional-Neural-Network-Based Channel Attention for Single Image Dynamic Scene Blind Deblurring](https://ieeexplore.ieee.org/document/9247132) | - |
+| CVPR  | [Cascaded Deep Video Deblurring Using Temporal Sharpness Prior](https://arxiv.org/abs/2004.02501) | [CDVD-TSP](https://github.com/csbhr/CDVD-TSP) |
+| CVPR  | [Learning Event-Based Motion Deblurring](https://ieeexplore.ieee.org/document/9156741) | - |
+| CVPR  | [Variational-EM-Based Deep Learning for Noise-Blind Image Deblurring](https://ieeexplore.ieee.org/document/9157497) | [VEM-NBD](https://github.com/ysnan/VEM-NBD) |
+| CVPR  | [Efficient Dynamic Scene Deblurring Using Spatially Variant Deconvolution Network With Optical Flow Guided Training](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yuan_Efficient_Dynamic_Scene_Deblurring_Using_Spatially_Variant_Deconvolution_Network_With_CVPR_2020_paper.pdf) | - |
+| CVPR  | [Deblurring by Realistic Blurring](https://arxiv.org/abs/2004.01860) | [Deblurring-by-Realistic-Blurring](https://github.com/HDCVLab/Deblurring-by-Realistic-Blurring) |
+| CVPR  | [Spatially-Attentive Patch-Hierarchical Network for Adaptive Motion Deblurring](https://arxiv.org/abs/2004.05343) | - |
+| CVPR  | [Deblurring Using Analysis-Synthesis Networks Pair](https://arxiv.org/abs/2004.02956) | - |
+
 
 ## 2019 Papers
 | Venue | Paper | Link |
