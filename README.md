@@ -111,6 +111,14 @@ A curated list of research papers and datasets related to image and video deblur
 | CVPR  | [Deblurring by Realistic Blurring](https://arxiv.org/abs/2004.01860) | [Deblurring-by-Realistic-Blurring](https://github.com/HDCVLab/Deblurring-by-Realistic-Blurring) |
 | CVPR  | [Spatially-Attentive Patch-Hierarchical Network for Adaptive Motion Deblurring](https://arxiv.org/abs/2004.05343) | - |
 | CVPR  | [Deblurring Using Analysis-Synthesis Networks Pair](https://arxiv.org/abs/2004.02956) | - |
+| ECCV  | [Efficient Spatio-Temporal Recurrent Neural Network for Video Deblurring](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123510188.pdf) | [ESTRNN](https://github.com/zzh-tech/ESTRNN) |
+| ECCV  | [Multi-Temporal Recurrent Neural Networks For Progressive Non-Uniform Single Image Deblurring With Incremental Temporal Training](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123510324.pdf) | [MTRNN](https://github.com/Dong1P/MTRNN) |
+| ECCV  | [Learning Event-Driven Video Deblurring and Interpolation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123530681.pdf) | [LEDVDI](https://github.com/Lynn0306/LEDVDI) |
+| ECCV  | [Defocus Deblurring Using Dual-Pixel Data](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123550120.pdf) | [defocus-deblurring-dual-pixel](https://github.com/Abdullah-Abuolaim/defocus-deblurring-dual-pixel) |
+| ECCV  | [Real-World Blur Dataset for Learning and Benchmarking Deblurring Algorithms](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700188.pdf) | [RealBlur](https://github.com/rimchang/RealBlur) |
+| ECCV  | [OID: Outlier Identifying and Discarding in Blind Image Deblurring](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700596.pdf) | [OID](https://drive.google.com/file/d/19PCEXVs6imWqqae37r5By-OCUlrNGHnd/view) |
+| ECCV  | [Enhanced Sparse Model for Blind Deblurring](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700630.pdf) | [Enhanced Sparse Model](https://drive.google.com/file/d/1HgLrWWh0Lx69kRh8xkm_peqNha1lNIOG/view) |
+
 
 
 ## 2019 Papers
