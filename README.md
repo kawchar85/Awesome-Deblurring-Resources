@@ -80,6 +80,19 @@ A curated list of research papers and datasets related to image and video deblur
 | CVPR  | [Unifying Motion Deblurring and Frame Interpolation with Events](https://arxiv.org/abs/2203.12178) | [EVDI](https://github.com/XiangZ-0/EVDI) |
 | CVPR  | [E-CIR: Event-Enhanced Continuous Intensity Recovery](https://arxiv.org/abs/2203.01935) | [E-CIR](https://github.com/chensong1995/E-CIR) |
 | CVPR  | [Multi-Scale Memory-Based Video Deblurring](https://arxiv.org/abs/2203.01935) | [MemDeblur](https://github.com/jibo27/MemDeblur) |
+| ECCV  | [Learning Degradation Representations for Image Deblurring](https://arxiv.org/abs/2208.05244) | [Learning_degradation](https://github.com/dasongli1/Learning_degradation) |
+| ECCV  | [Stripformer: Strip Transformer for Fast Image Deblurring](https://arxiv.org/abs/2204.04627) | [Stripformer-ECCV-2022](https://github.com/pp00704831/Stripformer-ECCV-2022-) |
+| ECCV  | [Animation from Blur: Multi-modal Blur Decomposition with Motion Guidance](https://arxiv.org/abs/2207.10123) | [Animation-from-Blur](https://github.com/zzh-tech/Animation-from-Blur) |
+| ECCV  | [United Defocus Blur Detection and Deblurring via Adversarial Promoting Learning](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/3308_ECCV_2022_paper.php) | [APL](https://github.com/wdzhao123/APL) |
+| ECCV  | [Realistic Blur Synthesis for Learning Image Deblurring](https://arxiv.org/abs/2202.08771) | [RSBlur](https://github.com/rimchang/RSBlur) |
+| ECCV  | [Event-based Fusion for Motion Deblurring with Cross-modal Attention](https://arxiv.org/abs/2112.00167) | [EFNet](https://github.com/AHupuJR/EFNet) |
+| ECCV  | [Event-Guided Deblurring of Unknown Exposure Time Videos](https://arxiv.org/abs/2112.06988) | [UEVD_public](https://github.com/intelpro/UEVD_public) |
+| ECCV  | [Spatio-Temporal Deformable Attention Network for Video Deblurring](https://arxiv.org/abs/2207.10852) | [STDAN](https://github.com/huicongzhang/STDAN) |
+| ECCV  | [Efficient Video Deblurring Guided by Motion Magnitude](https://arxiv.org/abs/2207.13374) | [MMP-RNN](https://github.com/sollynoay/MMP-RNN) |
+| ECCV  | [ERDN: Equivalent Receptive Field Deformable Network for Video Deblurring](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/4085_ECCV_2022_paper.php) | [ERDN](https://github.com/TencentCloud/ERDN) |
+| ECCV  | [DeMFI: Deep Joint Deblurring and Multi-Frame Interpolation with Flow-Guided Attentive Correlation and Recursive Boosting](https://arxiv.org/abs/2111.09985) | [DeMFI](https://github.com/JihyongOh/DeMFI) |
+| ECCV  | [Towards Real-World Video Deblurring by Exploring Blur Formation Process](https://arxiv.org/abs/2208.13184) | [RAWBlur](https://github.com/ljzycmd/rawblur) |
+
 
 
 ## 2021 Papers
