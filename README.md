@@ -36,6 +36,14 @@ A curated list of research papers and datasets related to image and video deblur
 | CVPR  | [Frequency-aware Event-based Video Deblurring for Real-World Motion Blur](https://openaccess.thecvf.com/content/CVPR2024/html/Kim_Frequency-aware_Event-based_Video_Deblurring_for_Real-World_Motion_Blur_CVPR_2024_paper.html) | - |
 | arXiv     | [Gyroscope-Assisted Motion Deblurring Network](https://arxiv.org/abs/2402.06854) | - |
 | arXiv     | [Gyro-based Neural Single Image Deblurring](https://arxiv.org/abs/2404.00916) | - |
+| ECCV  | [BAD-Gaussians: Bundle Adjusted Deblur Gaussian Splatting](https://arxiv.org/abs/2403.11831) | [BAD-Gaussians](https://github.com/WU-CVGL/BAD-Gaussians) |
+| ECCV  | [BeNeRF: Neural Radiance Fields from a Single Blurry Image and Event Stream](https://arxiv.org/abs/2407.02174v2) | [BeNeRF](https://github.com/WU-CVGL/BeNeRF) |
+| ECCV  | [Blind image deblurring with noise-robust kernel estimation](https://github.com/csleemooo/BD_noise_robust_kernel_estimation) | [BD_noise_robust_kernel_estimation](https://github.com/csleemooo/BD_noise_robust_kernel_estimation) |
+| ECCV  | [Domain-adaptive Video Deblurring via Test-time Blurring](https://arxiv.org/abs/2407.09059) | [DADeblur](https://github.com/Jin-Ting-He/DADeblur) |
+| ECCV  | [Gaussian Splatting on the Move: Blur and Rolling Shutter Compensation for Natural Camera Motion](https://arxiv.org/abs/2403.13327) | [3dgs-deblur](https://github.com/SpectacularAI/3dgs-deblur) |
+| ECCV  | [Towards Real-world Event-guided Low-light Video Enhancement and Deblurring](http://vi.kaist.ac.kr/2024/07/02/towards-real-world-event-guided-low-light-video-enhancement-and-deblurring/) | [ELEDNet](https://github.com/intelpro/ELEDNet) |
+| ECCV  | [UniINR: Event-guided Unified Rolling Shutter Correction, Deblurring, and Interpolation](https://arxiv.org/abs/2305.15078) | [UniINR](https://github.com/yunfanLu/UniINR) |
+
 
 ## 2023 Papers
 | Venue | Paper | Link |
