@@ -69,6 +69,13 @@ A curated list of research papers and datasets related to image and video deblur
 | AAAI  | [Learning Single Image Defocus Deblurring with Misaligned Training Pairs](https://ojs.aaai.org/index.php/AAAI/article/view/25235) | [JDRL](https://github.com/liyucs/JDRL) |
 | AAAI  | [Intriguing Findings of Frequency Selection for Image Deblurring](https://arxiv.org/abs/2111.11745) | [DeepRFT](https://github.com/INVOKERer/DeepRFT/tree/AAAI2023) |
 | AAAI  | [Learnable Blur Kernel for Single-Image Defocus Deblurring in the Wild](https://ojs.aaai.org/index.php/AAAI/article/view/25446) | - |
+| ICCV  | [Multiscale Structure Guided Diffusion for Image Deblurring](https://arxiv.org/abs/2212.01789) | - |
+| ICCV  | [Single Image Defocus Deblurring via Implicit Neural Inverse Kernels](https://openaccess.thecvf.com/content/ICCV2023/papers/Quan_Single_Image_Defocus_Deblurring_via_Implicit_Neural_Inverse_Kernels_ICCV_2023_paper.pdf) | [INIKNet](https://github.com/xinyao240/INIKNet) |
+| ICCV  | [Single Image Deblurring with Row-dependent Blur Magnitude](https://openaccess.thecvf.com//content/ICCV2023/html/Ji_Single_Image_Deblurring_with_Row-dependent_Blur_Magnitude_ICCV_2023_paper.html) | [RSS-T](https://github.com/jixiang2016/RSS-T) |
+| ICCV  | [Non-Coaxial Event-Guided Motion Deblurring with Spatial Alignment](https://openaccess.thecvf.com/content/ICCV2023/html/Cho_Non-Coaxial_Event-Guided_Motion_Deblurring_with_Spatial_Alignment_ICCV_2023_paper.html) | - |
+| ICCV  | [Generalizing Event-Based Motion Deblurring in Real-World Scenarios](https://arxiv.org/abs/2308.05932) | [GEM](https://github.com/XiangZ-0/GEM) |
+| ICCV  | [Exploring Temporal Frequency Spectrum in Deep Video Deblurring](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhu_Exploring_Temporal_Frequency_Spectrum_in_Deep_Video_Deblurring_ICCV_2023_paper.pdf) | - |
+
 
 
 ## 2022 Papers
