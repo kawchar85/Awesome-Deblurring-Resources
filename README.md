@@ -75,6 +75,8 @@ A curated list of research papers and datasets related to image and video deblur
 | ICCV  | [Non-Coaxial Event-Guided Motion Deblurring with Spatial Alignment](https://openaccess.thecvf.com/content/ICCV2023/html/Cho_Non-Coaxial_Event-Guided_Motion_Deblurring_with_Spatial_Alignment_ICCV_2023_paper.html) | - |
 | ICCV  | [Generalizing Event-Based Motion Deblurring in Real-World Scenarios](https://arxiv.org/abs/2308.05932) | [GEM](https://github.com/XiangZ-0/GEM) |
 | ICCV  | [Exploring Temporal Frequency Spectrum in Deep Video Deblurring](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhu_Exploring_Temporal_Frequency_Spectrum_in_Deep_Video_Deblurring_ICCV_2023_paper.pdf) | - |
+| NeurIPS | [Hierarchical Integration Diffusion Model for Realistic Image Deblurring](https://arxiv.org/abs/2305.12966) | [HI-Diff](https://github.com/zhengchen1999/HI-Diff) |
+| NeurIPS| [Enhancing Motion Deblurring in High-Speed Scenes with Spike Streams](https://openreview.net/forum?id=cAyLnMxiTl) | - |
 
 
 
@@ -119,7 +121,7 @@ A curated list of research papers and datasets related to image and video deblur
 | ICCV  | [Bringing Events into Video Deblurring with Non consecutively Blurry Frames](https://ieeexplore.ieee.org/document/9711143) | [D2Net](https://github.com/shangwei5/D2Net) |
 | ICCV  | [Rethinking Coarse-to-Fine Approach in Single Image Deblurring](https://arxiv.org/abs/2108.05054) | [MIMO-UNet](https://github.com/chosj95/MIMO-UNet) |
 | ICCV  | [Single Image Defocus Deblurring Using Kernel-Sharing Parallel Atrous Convolutions](https://arxiv.org/abs/2108.09108) | [KPAC](https://github.com/HyeongseokSon1/KPAC) |
-
+| NeurIPS | [Gaussian Kernel Mixture Network for Single Image Defocus Deblurring](https://openreview.net/forum?id=kSR-_SVzDR-) | [GKMNet](https://github.com/csZcWu/GKMNet) |
 
 ## 2020 Papers
 | Venue | Paper | Link |
