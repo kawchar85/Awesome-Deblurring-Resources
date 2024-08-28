@@ -8,8 +8,6 @@ A curated list of research papers and datasets related to image and video deblur
 - [2021 Papers](#2021-papers)
 - [2020 Papers](#2020-papers)
 - [2019 Papers](#2019-papers)
-- [2018 Papers](#2018-papers)
-- [2017 Papers](#2017-papers)
 - [Datasets](#datasets)
 
 ## 2024 Papers
@@ -66,6 +64,12 @@ A curated list of research papers and datasets related to image and video deblur
 | CVPR  | [Self-Supervised Blind Motion Deblurring With Deep Expectation Maximization](https://ieeexplore.ieee.org/document/10203880) | - |
 | CVPR  | [HyperCUT: Video Sequence from a Single Blurry Image using Unsupervised Ordering](https://arxiv.org/abs/2304.01686) | [HyperCUT](https://github.com/VinAIResearch/HyperCUT) |
 | CVPR  | [Deep Discriminative Spatial and Temporal Network for Efficient Video Deblurring](https://ieeexplore.ieee.org/document/10204041) | [DSTNet](https://github.com/xuboming8/DSTNet) |
+| AAAI  | [Dual-Domain Attention for Image Deblurring](https://ojs.aaai.org/index.php/AAAI/article/view/25122) | [DDANet](https://github.com/c-yn/DDANet) |
+| AAAI  | [Real-World Deep Local Motion Deblurring](https://arxiv.org/abs/2204.08179) | [ReLoBlur](https://github.com/LeiaLi/ReLoBlur) |
+| AAAI  | [Learning Single Image Defocus Deblurring with Misaligned Training Pairs](https://ojs.aaai.org/index.php/AAAI/article/view/25235) | [JDRL](https://github.com/liyucs/JDRL) |
+| AAAI  | [Intriguing Findings of Frequency Selection for Image Deblurring](https://arxiv.org/abs/2111.11745) | [DeepRFT](https://github.com/INVOKERer/DeepRFT/tree/AAAI2023) |
+| AAAI  | [Learnable Blur Kernel for Single-Image Defocus Deblurring in the Wild](https://ojs.aaai.org/index.php/AAAI/article/view/25446) | - |
+
 
 ## 2022 Papers
 | Venue | Paper | Link |
@@ -146,10 +150,6 @@ A curated list of research papers and datasets related to image and video deblur
 | CVPR      | [Deep Stacked Hierarchical Multi-Patch Network for Image Deblurring](https://arxiv.org/abs/1904.03468) | [DMPHN](https://github.com/HongguangZhang/DMPHN-cvpr19-master) |
 | CVPR      | [Dynamic Scene Deblurring with Parameter Selective Sharing and Nested Skip Connections](https://ieeexplore.ieee.org/document/8953950) | [Deblur](https://github.com/firenxygao/deblur) |
 
-## 2018 Papers
-| Venue | Paper | Link |
-|-------|-------|------|
-| -         | -     | -    |
 
 ## Datasets
 | Name      | Description                                                                                                                                                                                                                      | Link                                                                                             |
