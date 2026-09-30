@@ -24,7 +24,7 @@ jobs:
             --no-progress
             --max-retries 2
             --timeout 20
-            --accept 200,206,403,429
+            --accept 200,202,206,403,429
             './README.md'
             './docs/**/*.md'
           fail: true
