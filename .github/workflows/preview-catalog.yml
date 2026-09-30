@@ -1,10 +1,14 @@
-name: Preview generated catalog
+name: Validate generated catalog
 
 on:
   pull_request:
     paths:
       - "data/**"
       - "scripts/generate_catalog.py"
+      - "README.md"
+      - "docs/by-task.md"
+      - "docs/by-signal.md"
+      - "docs/by-method.md"
       - ".github/workflows/preview-catalog.yml"
   workflow_dispatch:
 
@@ -20,9 +24,16 @@ jobs:
         run: python -m pip install pyyaml
       - name: Validate structured data
         run: python scripts/validate_data.py
-      - name: Generate preview
+      - name: Generate catalog
         run: python scripts/generate_catalog.py --output-dir generated-preview
+      - name: Check committed catalog is up to date
+        run: |
+          diff -u README.md generated-preview/README.md
+          diff -u docs/by-task.md generated-preview/docs/by-task.md
+          diff -u docs/by-signal.md generated-preview/docs/by-signal.md
+          diff -u docs/by-method.md generated-preview/docs/by-method.md
       - name: Upload generated preview
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: generated-catalog-preview

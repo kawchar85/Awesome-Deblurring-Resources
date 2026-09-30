@@ -192,6 +192,8 @@ def write_index(out: Path, title: str, dimension: str, papers: list[dict], taxon
         "",
         "Generated from the structured research catalog.",
         "",
+        "[← Back to main catalog](../README.md)",
+        "",
         "## Index",
         "",
     ]
