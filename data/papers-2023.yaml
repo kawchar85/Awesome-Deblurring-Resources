@@ -1,0 +1,323 @@
+version: 1
+papers:
+  - id: 2023-gibbsddrm
+    year: 2023
+    venue: ICML
+    title: "GibbsDDRM: A Partially Collapsed Gibbs Sampler for Solving Blind Inverse Problems with Denoising Diffusion Restoration"
+    paper_url: "https://arxiv.org/abs/2301.12686v2"
+    code_url: "https://github.com/sony/gibbsddrm"
+    tasks: [blind-deblurring, deconvolution]
+    signals: [rgb]
+    methods: [diffusion]
+    datasets: []
+
+  - id: 2023-blind-unknown-kernel-noise
+    year: 2023
+    venue: IJCV
+    title: "Blind Image Deblurring with Unknown Kernel Size and Substantial Noise"
+    paper_url: "https://arxiv.org/abs/2208.09483v2"
+    code_url: "https://github.com/sun-umn/Blind-Image-Deblurring"
+    tasks: [blind-deblurring]
+    signals: [rgb]
+    methods: [kernel-estimation]
+    datasets: []
+
+  - id: 2023-infwide
+    year: 2023
+    venue: TIP
+    title: "INFWIDE: Image and Feature Space Wiener Deconvolution Network for Non-blind Image Deblurring in Low-Light Conditions"
+    paper_url: "https://ieeexplore.ieee.org/document/10047966"
+    code_url: "https://github.com/zhihongz/infwide"
+    tasks: [nonblind-deblurring, low-light-deblurring, deconvolution]
+    signals: [rgb]
+    methods: [frequency-domain]
+    datasets: []
+
+  - id: 2023-reloblur
+    year: 2023
+    venue: AAAI
+    title: "Real-World Deep Local Motion Deblurring"
+    paper_url: "https://arxiv.org/abs/2204.08179"
+    code_url: "https://github.com/LeiaLi/ReLoBlur"
+    tasks: [local-motion-deblurring]
+    signals: [rgb]
+    methods: []
+    datasets: [ReLoBlur]
+
+  - id: 2023-mrlpfnet
+    year: 2023
+    venue: ICCV
+    title: "Multi-scale Residual Low-Pass Filter Network for Image Deblurring"
+    paper_url: "https://ieeexplore.ieee.org/document/10377577"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: [frequency-domain]
+    datasets: []
+
+  - id: 2023-msfs-net
+    year: 2023
+    venue: TCSVT
+    title: "Multi-Scale Frequency Separation Network for Image Deblurring"
+    paper_url: "https://arxiv.org/abs/2206.00798"
+    code_url: "https://github.com/LiQiang0307/MSFS-Net"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: [frequency-domain]
+    datasets: []
+
+  - id: 2023-irnext
+    year: 2023
+    venue: ICML
+    title: "IRNeXt: Rethinking Convolutional Network Design for Image Restoration"
+    paper_url: "https://dl.acm.org/doi/10.5555/3618408.3618669"
+    code_url: "https://github.com/c-yn/IRNeXt"
+    tasks: [image-deblurring]
+    signals: [rgb]
+    methods: [cnn]
+    datasets: []
+
+  - id: 2023-structured-kernel-photon
+    year: 2023
+    venue: CVPR
+    title: "Structured Kernel Estimation for Photon-Limited Deconvolution"
+    paper_url: "https://arxiv.org/abs/2303.03472"
+    code_url: "https://github.com/sanghviyashiitb/structured-kernel-cvpr23"
+    tasks: [blind-deblurring, deconvolution]
+    signals: [rgb]
+    methods: [kernel-estimation, physics-based]
+    datasets: []
+
+  - id: 2023-bit
+    year: 2023
+    venue: CVPR
+    title: "Blur Interpolation Transformer for Real-World Motion from Blur"
+    paper_url: "https://arxiv.org/abs/2211.11423"
+    code_url: "https://github.com/zzh-tech/BiT"
+    tasks: [blur-to-video]
+    signals: [rgb]
+    methods: [transformer]
+    datasets: []
+
+  - id: 2023-nrknet
+    year: 2023
+    venue: CVPR
+    title: "Neumann Network with Recursive Kernels for Single Image Defocus Deblurring"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2023/papers/Quan_Neumann_Network_With_Recursive_Kernels_for_Single_Image_Defocus_Deblurring_CVPR_2023_paper.pdf"
+    code_url: "https://github.com/csZcWu/NRKNet"
+    tasks: [defocus-deblurring]
+    signals: [rgb]
+    methods: [kernel-estimation]
+    datasets: []
+
+  - id: 2023-fftformer
+    year: 2023
+    venue: CVPR
+    title: "Efficient Frequency Domain-based Transformers for High-Quality Image Deblurring"
+    paper_url: "https://arxiv.org/abs/2211.12250"
+    code_url: "https://github.com/kkkls/FFTformer"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: [transformer, frequency-domain]
+    datasets: []
+
+  - id: 2023-hybrid-neural-rendering
+    year: 2023
+    venue: CVPR
+    title: "Hybrid Neural Rendering for Large-Scale Scenes with Motion Blur"
+    paper_url: "https://arxiv.org/abs/2304.12652"
+    code_url: "https://github.com/CVMI-Lab/HybridNeuralRendering"
+    tasks: [motion-deblurring, 3d-reconstruction]
+    signals: [rgb]
+    methods: [radiance-field]
+    datasets: []
+
+  - id: 2023-ufpdeblur
+    year: 2023
+    venue: CVPR
+    title: "Self-Supervised Non-Uniform Kernel Estimation With Flow-Based Motion Prior for Blind Image Deblurring"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2023/html/Fang_Self-Supervised_Non-Uniform_Kernel_Estimation_With_Flow-Based_Motion_Prior_for_Blind_CVPR_2023_paper.html"
+    code_url: "https://github.com/Fangzhenxuan/UFPDeblur"
+    tasks: [blind-deblurring, motion-deblurring]
+    signals: [rgb]
+    methods: [self-supervised, kernel-estimation]
+    datasets: []
+
+  - id: 2023-uaudeblur
+    year: 2023
+    venue: CVPR
+    title: "Uncertainty-Aware Unsupervised Image Deblurring with Deep Residual Prior"
+    paper_url: "https://arxiv.org/abs/2210.05361"
+    code_url: "https://github.com/xl-tang01/UAUDeblur"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: [unsupervised]
+    datasets: []
+
+  - id: 2023-k3dn
+    year: 2023
+    venue: CVPR
+    title: "K3DN: Disparity-Aware Kernel Estimation for Dual-Pixel Defocus Deblurring"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2023/html/Yang_K3DN_Disparity-Aware_Kernel_Estimation_for_Dual-Pixel_Defocus_Deblurring_CVPR_2023_paper.html"
+    tasks: [defocus-deblurring]
+    signals: [dual-pixel]
+    methods: [kernel-estimation, depth-aware]
+    datasets: []
+
+  - id: 2023-self-supervised-deep-em
+    year: 2023
+    venue: CVPR
+    title: "Self-Supervised Blind Motion Deblurring With Deep Expectation Maximization"
+    paper_url: "https://ieeexplore.ieee.org/document/10203880"
+    tasks: [blind-deblurring, motion-deblurring]
+    signals: [rgb]
+    methods: [self-supervised, kernel-estimation]
+    datasets: []
+
+  - id: 2023-hypercut
+    year: 2023
+    venue: CVPR
+    title: "HyperCUT: Video Sequence from a Single Blurry Image using Unsupervised Ordering"
+    paper_url: "https://arxiv.org/abs/2304.01686"
+    code_url: "https://github.com/VinAIResearch/HyperCUT"
+    tasks: [blur-to-video]
+    signals: [rgb]
+    methods: [unsupervised]
+    datasets: []
+
+  - id: 2023-dstnet
+    year: 2023
+    venue: CVPR
+    title: "Deep Discriminative Spatial and Temporal Network for Efficient Video Deblurring"
+    paper_url: "https://ieeexplore.ieee.org/document/10204041"
+    code_url: "https://github.com/xuboming8/DSTNet"
+    tasks: [motion-deblurring, video-deblurring]
+    signals: [video]
+    methods: []
+    datasets: []
+
+  - id: 2023-ddanet
+    year: 2023
+    venue: AAAI
+    title: "Dual-Domain Attention for Image Deblurring"
+    paper_url: "https://ojs.aaai.org/index.php/AAAI/article/view/25122"
+    code_url: "https://github.com/c-yn/DDANet"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: [frequency-domain]
+    datasets: []
+
+  - id: 2023-jdrl
+    year: 2023
+    venue: AAAI
+    title: "Learning Single Image Defocus Deblurring with Misaligned Training Pairs"
+    paper_url: "https://ojs.aaai.org/index.php/AAAI/article/view/25235"
+    code_url: "https://github.com/liyucs/JDRL"
+    tasks: [defocus-deblurring]
+    signals: [rgb]
+    methods: []
+    datasets: []
+
+  - id: 2023-deeprft
+    year: 2023
+    venue: AAAI
+    title: "Intriguing Findings of Frequency Selection for Image Deblurring"
+    paper_url: "https://arxiv.org/abs/2111.11745"
+    code_url: "https://github.com/INVOKERer/DeepRFT/tree/AAAI2023"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: [frequency-domain]
+    datasets: []
+
+  - id: 2023-learnable-defocus-kernel
+    year: 2023
+    venue: AAAI
+    title: "Learnable Blur Kernel for Single-Image Defocus Deblurring in the Wild"
+    paper_url: "https://ojs.aaai.org/index.php/AAAI/article/view/25446"
+    tasks: [defocus-deblurring]
+    signals: [rgb]
+    methods: [kernel-estimation]
+    datasets: []
+
+  - id: 2023-multiscale-structure-diffusion
+    year: 2023
+    venue: ICCV
+    title: "Multiscale Structure Guided Diffusion for Image Deblurring"
+    paper_url: "https://arxiv.org/abs/2212.01789"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: [diffusion]
+    datasets: []
+
+  - id: 2023-iniknet
+    year: 2023
+    venue: ICCV
+    title: "Single Image Defocus Deblurring via Implicit Neural Inverse Kernels"
+    paper_url: "https://openaccess.thecvf.com/content/ICCV2023/papers/Quan_Single_Image_Defocus_Deblurring_via_Implicit_Neural_Inverse_Kernels_ICCV_2023_paper.pdf"
+    code_url: "https://github.com/xinyao240/INIKNet"
+    tasks: [defocus-deblurring]
+    signals: [rgb]
+    methods: [kernel-estimation]
+    datasets: []
+
+  - id: 2023-rss-t
+    year: 2023
+    venue: ICCV
+    title: "Single Image Deblurring with Row-dependent Blur Magnitude"
+    paper_url: "https://openaccess.thecvf.com/content/ICCV2023/html/Ji_Single_Image_Deblurring_with_Row-dependent_Blur_Magnitude_ICCV_2023_paper.html"
+    code_url: "https://github.com/jixiang2016/RSS-T"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: [degradation-modeling]
+    datasets: []
+
+  - id: 2023-non-coaxial-event
+    year: 2023
+    venue: ICCV
+    title: "Non-Coaxial Event-Guided Motion Deblurring with Spatial Alignment"
+    paper_url: "https://openaccess.thecvf.com/content/ICCV2023/html/Cho_Non-Coaxial_Event-Guided_Motion_Deblurring_with_Spatial_Alignment_ICCV_2023_paper.html"
+    tasks: [motion-deblurring]
+    signals: [rgb, events]
+    methods: []
+    datasets: []
+
+  - id: 2023-gem
+    year: 2023
+    venue: ICCV
+    title: "Generalizing Event-Based Motion Deblurring in Real-World Scenarios"
+    paper_url: "https://arxiv.org/abs/2308.05932"
+    code_url: "https://github.com/XiangZ-0/GEM"
+    tasks: [motion-deblurring]
+    signals: [rgb, events]
+    methods: []
+    datasets: []
+
+  - id: 2023-temporal-frequency-video
+    year: 2023
+    venue: ICCV
+    title: "Exploring Temporal Frequency Spectrum in Deep Video Deblurring"
+    paper_url: "https://openaccess.thecvf.com/content/ICCV2023/papers/Zhu_Exploring_Temporal_Frequency_Spectrum_in_Deep_Video_Deblurring_ICCV_2023_paper.pdf"
+    tasks: [motion-deblurring, video-deblurring]
+    signals: [video]
+    methods: [frequency-domain]
+    datasets: []
+
+  - id: 2023-hi-diff
+    year: 2023
+    venue: NeurIPS
+    title: "Hierarchical Integration Diffusion Model for Realistic Image Deblurring"
+    paper_url: "https://arxiv.org/abs/2305.12966"
+    code_url: "https://github.com/zhengchen1999/HI-Diff"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: [diffusion]
+    datasets: []
+
+  - id: 2023-spike-high-speed-deblurring
+    year: 2023
+    venue: NeurIPS
+    title: "Enhancing Motion Deblurring in High-Speed Scenes with Spike Streams"
+    paper_url: "https://openreview.net/forum?id=cAyLnMxiTl"
+    tasks: [motion-deblurring]
+    signals: [rgb, spike]
+    methods: []
+    datasets: []
