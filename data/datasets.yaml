@@ -19,7 +19,7 @@ datasets:
 
   - id: DPDD
     name: DPDD
-    url: "https://abuolaim.nowaty.com/eccv_2020_dp_defocus_deblurring/"
+    url: "https://github.com/Abdullah-Abuolaim/defocus-deblurring-dual-pixel"
     description: "Dual-pixel defocus dataset with 500 scenes, dual-pixel sub-aperture views, and all-in-focus ground truth."
     tasks: [defocus-deblurring]
     signals: [dual-pixel]
@@ -35,7 +35,7 @@ datasets:
 
   - id: RealBlur
     name: RealBlur
-    url: "https://cg.postech.ac.kr/research/realblur/"
+    url: "https://github.com/rimchang/RealBlur"
     description: "4,738 real blurry/sharp pairs from 232 scenes, released as RealBlur-R (RAW) and RealBlur-J (JPEG) variants."
     tasks: [motion-deblurring]
     signals: [rgb, raw]
@@ -51,7 +51,7 @@ datasets:
 
   - id: RSBlur
     name: RSBlur
-    url: "https://cg.postech.ac.kr/research/rsblur/"
+    url: "https://github.com/rimchang/RSBlur"
     description: "13,358 real and realistically synthesized blurry/sharp pairs for real-world image deblurring and blur synthesis."
     tasks: [motion-deblurring, blur-synthesis]
     signals: [rgb]
@@ -115,7 +115,7 @@ datasets:
 
   - id: "Extreme Motion-Blur RGB-D"
     name: "Extreme Motion-Blur RGB-D"
-    url: "https://github.com/KAISTVCLAB/gs-extreme-motion-blur"
+    url: "https://github.com/KAIST-VCLAB/gs-extreme-motion-blur"
     description: "RGB-D benchmark with extreme motion blur introduced for splat-based 3D scene reconstruction and deblurring."
     tasks: [motion-deblurring, 3d-reconstruction]
     signals: [rgb-d]

@@ -1,9 +1,4 @@
 version: 1
-migration:
-  complete_years: [2025, 2026]
-  pending_years: [2019, 2020, 2021, 2022, 2023, 2024]
-  note: "Initial structured-data migration. README remains the public source for pending years until they are migrated and validated."
-
 papers:
   - id: 2026-gyro-dvd
     year: 2026
@@ -167,7 +162,7 @@ papers:
     venue: WACV
     title: "Blind Image Deblurring with FFT-ReLU Sparsity Prior"
     paper_url: "https://openaccess.thecvf.com/content/WACV2025/html/Al_Radi_Blind_Image_Deblurring_with_FFT-ReLU_Sparsity_Prior_WACV_2025_paper.html"
-    code_url: "https://github.com/Metalicana/Blind-Image-Deblurring-using-FFT-ReLU-with-Deep-Learning-Pipeline-Integration"
+    code_url: "https://github.com/Metalicana/Blind-Image-Deblurring-with-FFT-ReLU-Sparsity-Prior"
     tasks: [blind-deblurring]
     signals: [rgb]
     methods: [frequency-domain]
@@ -376,7 +371,7 @@ papers:
     venue: ICCV
     title: "Splat-based 3D Scene Reconstruction with Extreme Motion-blur"
     paper_url: "https://openaccess.thecvf.com/content/ICCV2025/html/Jang_Splat-based_3D_Scene_Reconstruction_with_Extreme_Motion-blur_ICCV_2025_paper.html"
-    code_url: "https://github.com/KAISTVCLAB/gs-extreme-motion-blur"
+    code_url: "https://github.com/KAIST-VCLAB/gs-extreme-motion-blur"
     tasks: [motion-deblurring, 3d-reconstruction]
     signals: [rgb-d]
     methods: [gaussian-splatting]

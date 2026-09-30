@@ -49,7 +49,7 @@ A curated, structured collection of research papers, implementations, datasets, 
 
 | Venue | Paper | Task | Resource |
 |---|---|---|---|
-| WACV | [Blind Image Deblurring with FFT-ReLU Sparsity Prior](https://openaccess.thecvf.com/content/WACV2025/html/Al_Radi_Blind_Image_Deblurring_with_FFT-ReLU_Sparsity_Prior_WACV_2025_paper.html) | Blind | [Code](https://github.com/Metalicana/Blind-Image-Deblurring-using-FFT-ReLU-with-Deep-Learning-Pipeline-Integration) |
+| WACV | [Blind Image Deblurring with FFT-ReLU Sparsity Prior](https://openaccess.thecvf.com/content/WACV2025/html/Al_Radi_Blind_Image_Deblurring_with_FFT-ReLU_Sparsity_Prior_WACV_2025_paper.html) | Blind | [Code](https://github.com/Metalicana/Blind-Image-Deblurring-with-FFT-ReLU-Sparsity-Prior) |
 | WACV | [Deep Joint Unrolling for Deblurring and Low-Light Image Enhancement (JUDE)](https://openaccess.thecvf.com/content/WACV2025/html/Vo_Deep_Joint_Unrolling_for_Deblurring_and_Low-Light_Image_Enhancement_JUDE_WACV_2025_paper.html) | Motion · Low-light | [Project](https://jude.kc-ml2.com/) |
 | WACV Workshops | [DaBiT: Depth and Blur informed Transformer for Video Deblurring](https://openaccess.thecvf.com/content/WACV2025W/ImageQuality/html/Morris_DaBiT_Depth_and_Blur_informed_Transformer_for_Video_Deblurring_WACVW_2025_paper.html) | Video · Defocus | — |
 | AAAI | [Motion-adaptive Transformer for Event-based Image Deblurring](https://ojs.aaai.org/index.php/AAAI/article/view/32967) | Motion | — |
@@ -69,7 +69,7 @@ A curated, structured collection of research papers, implementations, datasets, 
 | ICCV | [EVDM: Event-based Real-world Video Deblurring with Mamba](https://openaccess.thecvf.com/content/ICCV2025/html/Sun_EVDM_Event-based_Real-world_Video_Deblurring_with_Mamba_ICCV_2025_paper.html) | Motion · Video | [Code](https://github.com/ZhijingS/EVDM) |
 | ICCV | [Efficient Concertormer for Image Deblurring and Beyond](https://openaccess.thecvf.com/content/ICCV2025/html/Kuo_Efficient_Concertormer_for_Image_Deblurring_and_Beyond_ICCV_2025_paper.html) | Motion | — |
 | ICCV | [Separation for Better Integration: Disentangling Edge and Motion in Event-based Deblurring](https://openaccess.thecvf.com/content/ICCV2025/html/Zhu_Separation_for_Better_Integration_Disentangling_Edge_and_Motion_in_Event-based_ICCV_2025_paper.html) | Motion | — |
-| ICCV | [Splat-based 3D Scene Reconstruction with Extreme Motion-blur](https://openaccess.thecvf.com/content/ICCV2025/html/Jang_Splat-based_3D_Scene_Reconstruction_with_Extreme_Motion-blur_ICCV_2025_paper.html) | Motion · 3D Reconstruction | [Code](https://github.com/KAISTVCLAB/gs-extreme-motion-blur) |
+| ICCV | [Splat-based 3D Scene Reconstruction with Extreme Motion-blur](https://openaccess.thecvf.com/content/ICCV2025/html/Jang_Splat-based_3D_Scene_Reconstruction_with_Extreme_Motion-blur_ICCV_2025_paper.html) | Motion · 3D Reconstruction | [Code](https://github.com/KAIST-VCLAB/gs-extreme-motion-blur) |
 | NeurIPS | [DeblurDiff: Real-World Image Deblurring with Generative Diffusion Models](https://proceedings.neurips.cc/paper_files/paper/2025/hash/e393677793767624f2821cec8bdd02f1-Abstract-Conference.html) | Motion | [Code](https://github.com/kkkls/DeblurDiff) |
 | NeurIPS | [BlurDM: A Blur Diffusion Model for Image Deblurring](https://proceedings.neurips.cc/paper_files/paper/2025/hash/4b43f14df70be3b93e8c415d46df0598-Abstract-Conference.html) | Motion | [Code](https://github.com/Jin-Ting-He/BlurDM) |
 | NeurIPS | [Asymmetric Dual-Lens Video Deblurring](https://proceedings.neurips.cc/paper_files/paper/2025/hash/3c8290b9d484baa0435f31d11e01b5b8-Abstract-Conference.html) | Motion · Video | — |
@@ -83,7 +83,7 @@ A curated, structured collection of research papers, implementations, datasets, 
 |---|---|---|---|
 | arXiv | [Fast Diffusion EM: a diffusion model for blind inverse problems with application to deconvolution](https://arxiv.org/abs/2309.00287v2) | Blind · Deconvolution | [Code](https://github.com/claroche-r/fastdiffusionem) |
 | SPIE | [Estimation of motion blur kernel parameters using regression convolutional neural networks](https://arxiv.org/abs/2308.01381v3) | Blind | [Code](https://github.com/duckduckpig/regression_blur) |
-| SIGGRAPH | [Deep Hybrid Camera Deblurring for Smartphone Cameras](https://graphics.postech.ac.kr/researches/HCDeblur/) | Motion | [Code](https://github.com/rimchang/HCDeblur) |
+| SIGGRAPH | [Deep Hybrid Camera Deblurring for Smartphone Cameras](https://arxiv.org/abs/2312.13317) | Motion | [Code](https://github.com/rimchang/HCDeblur) |
 | CVPR | [A Unified Framework for Microscopy Defocus Deblur with Multi-Pyramid Transformer and Contrastive Learning](https://arxiv.org/abs/2403.02611) | Defocus | [Code](https://github.com/PieceZhang/MPT-CataBlur) |
 | CVPR | [AdaRevD: Adaptive Patch Exiting Reversible Decoder Pushes the Limit of Image Deblurring](https://arxiv.org/abs/2406.09135) | Motion | [Code](https://github.com/INVOKERer/AdaRevD) |
 | CVPR | [Blur2Blur: Blur Conversion for Unsupervised Image Deblurring on Unknown Domains](https://arxiv.org/abs/2403.16205) | Motion · Blur Synthesis | [Code](https://github.com/VinAIResearch/Blur2Blur) |
@@ -106,7 +106,7 @@ A curated, structured collection of research papers, implementations, datasets, 
 | ECCV | [Blind Image Deblurring with Noise-Robust Kernel Estimation](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3024_ECCV_2024_paper.php) | Blind | [Code](https://github.com/csleemooo/BD_noise_robust_kernel_estimation) |
 | ECCV | [Domain-adaptive Video Deblurring via Test-time Blurring](https://arxiv.org/abs/2407.09059) | Motion · Video · Blur Synthesis | [Code](https://github.com/Jin-Ting-He/DADeblur) |
 | ECCV | [Gaussian Splatting on the Move: Blur and Rolling Shutter Compensation for Natural Camera Motion](https://arxiv.org/abs/2403.13327) | Motion · Rolling Shutter · 3D Reconstruction | [Code](https://github.com/SpectacularAI/3dgs-deblur) |
-| ECCV | [Towards Real-world Event-guided Low-light Video Enhancement and Deblurring](http://vi.kaist.ac.kr/2024/07/02/towards-real-world-event-guided-low-light-video-enhancement-and-deblurring/) | Motion · Video · Low-light | [Code](https://github.com/intelpro/ELEDNet) |
+| ECCV | [Towards Real-world Event-guided Low-light Video Enhancement and Deblurring](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/1982_ECCV_2024_paper.php) | Motion · Video · Low-light | [Code](https://github.com/intelpro/ELEDNet) |
 | ECCV | [UniINR: Event-guided Unified Rolling Shutter Correction, Deblurring, and Interpolation](https://arxiv.org/abs/2305.15078) | Motion · Rolling Shutter · Frame Interpolation | [Code](https://github.com/yunfanLu/UniINR) |
 
 </details>
@@ -131,7 +131,7 @@ A curated, structured collection of research papers, implementations, datasets, 
 | CVPR | [Efficient Frequency Domain-based Transformers for High-Quality Image Deblurring](https://arxiv.org/abs/2211.12250) | Motion | [Code](https://github.com/kkkls/FFTformer) |
 | CVPR | [Hybrid Neural Rendering for Large-Scale Scenes with Motion Blur](https://arxiv.org/abs/2304.12652) | Motion · 3D Reconstruction | [Code](https://github.com/CVMI-Lab/HybridNeuralRendering) |
 | CVPR | [Self-Supervised Non-Uniform Kernel Estimation With Flow-Based Motion Prior for Blind Image Deblurring](https://openaccess.thecvf.com/content/CVPR2023/html/Fang_Self-Supervised_Non-Uniform_Kernel_Estimation_With_Flow-Based_Motion_Prior_for_Blind_CVPR_2023_paper.html) | Blind · Motion | [Code](https://github.com/Fangzhenxuan/UFPDeblur) |
-| CVPR | [Uncertainty-Aware Unsupervised Image Deblurring with Deep Residual Prior](https://arxiv.org/abs/2210.05361) | Motion | [Code](https://github.com/xl-tang01/UAUDeblur) |
+| CVPR | [Uncertainty-Aware Unsupervised Image Deblurring with Deep Residual Prior](https://arxiv.org/abs/2210.05361) | Motion | [Code](https://github.com/xl-tang3/UAUDeblur) |
 | CVPR | [K3DN: Disparity-Aware Kernel Estimation for Dual-Pixel Defocus Deblurring](https://openaccess.thecvf.com/content/CVPR2023/html/Yang_K3DN_Disparity-Aware_Kernel_Estimation_for_Dual-Pixel_Defocus_Deblurring_CVPR_2023_paper.html) | Defocus | — |
 | CVPR | [Self-Supervised Blind Motion Deblurring With Deep Expectation Maximization](https://ieeexplore.ieee.org/document/10203880) | Blind · Motion | — |
 | CVPR | [HyperCUT: Video Sequence from a Single Blurry Image using Unsupervised Ordering](https://arxiv.org/abs/2304.01686) | Blur-to-Video | [Code](https://github.com/VinAIResearch/HyperCUT) |
@@ -255,11 +255,11 @@ A curated, structured collection of research papers, implementations, datasets, 
 |---|---|---|---|---|
 | GoPro | Motion | RGB | synthetic-from-high-fps | [Resource](https://seungjunnah.github.io/Datasets/gopro) |
 | REDS | Video · Motion | Video | high-fps-video | [Resource](https://seungjunnah.github.io/Datasets/reds) |
-| DPDD | Defocus | Dual Pixel | real | [Resource](https://abuolaim.nowaty.com/eccv_2020_dp_defocus_deblurring/) |
+| DPDD | Defocus | Dual Pixel | real | [Resource](https://github.com/Abdullah-Abuolaim/defocus-deblurring-dual-pixel) |
 | HIDE | Motion | RGB | synthetic-from-high-fps | [Resource](https://github.com/joanshen0508/HA_deblur) |
-| RealBlur | Motion | RGB · RAW | real | [Resource](https://cg.postech.ac.kr/research/realblur/) |
+| RealBlur | Motion | RGB · RAW | real | [Resource](https://github.com/rimchang/RealBlur) |
 | Deblur-NeRF | Motion · Defocus · 3D Reconstruction | RGB | mixed | [Resource](https://limacv.github.io/deblurnerf/) |
-| RSBlur | Motion · Blur Synthesis | RGB | mixed | [Resource](https://cg.postech.ac.kr/research/rsblur/) |
+| RSBlur | Motion · Blur Synthesis | RGB | mixed | [Resource](https://github.com/rimchang/RSBlur) |
 | ReLoBlur | Local Motion | RGB | real | [Resource](https://leiali.github.io/ReLoBlur_homepage/index.html) |
 | HCBlur | Motion | Stereo | mixed | [Resource](https://github.com/rimchang/HCDeblur) |
 | DAVIS-Blur | Video · Defocus | Video | synthetic | [Resource](https://openaccess.thecvf.com/content/WACV2025W/ImageQuality/html/Morris_DaBiT_Depth_and_Blur_informed_Transformer_for_Video_Deblurring_WACVW_2025_paper.html) |
@@ -267,7 +267,7 @@ A curated, structured collection of research papers, implementations, datasets, 
 | GyroBlur | Motion | RGB · Gyro | mixed | [Resource](https://github.com/hmyang0727/GyroDeblurNet) |
 | BlurRF-Synth | Motion · 3D Reconstruction | RGB | synthetic | [Resource](https://github.com/haeyun-choi/DeepDeblurRF) |
 | T-RED | Motion · Video | Video · Events | real | [Resource](https://github.com/ZhijingS/EVDM) |
-| Extreme Motion-Blur RGB-D | Motion · 3D Reconstruction | RGB-D | real | [Resource](https://github.com/KAISTVCLAB/gs-extreme-motion-blur) |
+| Extreme Motion-Blur RGB-D | Motion · 3D Reconstruction | RGB-D | real | [Resource](https://github.com/KAIST-VCLAB/gs-extreme-motion-blur) |
 | GyroVD | Motion · Video | Video · Gyro | mixed | [Resource](https://github.com/rimchang/GyroDVD) |
 | HSD | Motion | Stereo | real | [Resource](https://github.com/shinhoju/PECA) |
 | CLDefocus | Defocus · Blur Synthesis | RGB | synthetic | [Resource](https://github.com/lykelee/CLDefocus) |

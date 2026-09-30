@@ -98,7 +98,7 @@ Fourier/frequency-domain priors or processing central to the method.
 |---:|---|---|---|
 | 2026 | ECCV | [CogSENet: Blind Image Deblurring with Blur-Conditioned Semantic Routing and Explicit Frequency Fusion](https://arxiv.org/abs/2606.30030) | — |
 | 2026 | ECCV | [Leveraging Phase Information to Boost Unrolled Network Learning for Image Deblurring](https://arxiv.org/abs/2607.00251) | — |
-| 2025 | WACV | [Blind Image Deblurring with FFT-ReLU Sparsity Prior](https://openaccess.thecvf.com/content/WACV2025/html/Al_Radi_Blind_Image_Deblurring_with_FFT-ReLU_Sparsity_Prior_WACV_2025_paper.html) | [Code](https://github.com/Metalicana/Blind-Image-Deblurring-using-FFT-ReLU-with-Deep-Learning-Pipeline-Integration) |
+| 2025 | WACV | [Blind Image Deblurring with FFT-ReLU Sparsity Prior](https://openaccess.thecvf.com/content/WACV2025/html/Al_Radi_Blind_Image_Deblurring_with_FFT-ReLU_Sparsity_Prior_WACV_2025_paper.html) | [Code](https://github.com/Metalicana/Blind-Image-Deblurring-with-FFT-ReLU-Sparsity-Prior) |
 | 2024 | CVPR | [Fourier Priors-Guided Diffusion for Zero-Shot Joint Low-Light Enhancement and Deblurring](https://openaccess.thecvf.com/content/CVPR2024/html/Lv_Fourier_Priors-Guided_Diffusion_for_Zero-Shot_Joint_Low-Light_Enhancement_and_Deblurring_CVPR_2024_paper.html) | [Code](https://github.com/aipixel/FourierDiff) |
 | 2024 | CVPR | [Frequency-aware Event-based Video Deblurring for Real-World Motion Blur](https://openaccess.thecvf.com/content/CVPR2024/html/Kim_Frequency-aware_Event-based_Video_Deblurring_for_Real-World_Motion_Blur_CVPR_2024_paper.html) | — |
 | 2023 | AAAI | [Dual-Domain Attention for Image Deblurring](https://ojs.aaai.org/index.php/AAAI/article/view/25122) | [Code](https://github.com/c-yn/DDANet) |
@@ -127,7 +127,7 @@ Generative-adversarial-network-based restoration.
 | 2026 | CVPR | [Event-Based Motion Deblurring Using Task-Oriented 3D Gaussian Event Representations](https://openaccess.thecvf.com/content/CVPR2026/html/Xue_Event-Based_Motion_Deblurring_Using_Task-Oriented_3D_Gaussian_Event_Representations_CVPR_2026_paper.html) | — |
 | 2026 | CVPR | [MSCD-GS: Motion-Separated Cooperative Deblurring Dynamic Reconstruction via Gaussian Splatting](https://openaccess.thecvf.com/content/CVPR2026/html/Liao_MSCD-GS_Motion-Separated_Cooperative_Deblurring_Dynamic_Reconstruction_via_Gaussian_Splatting_CVPR_2026_paper.html) | — |
 | 2026 | ECCV | [PRISM3D: Probabilistic Refinement and Robust Initialization for Physically Consistent Scene Modeling under Extreme Motion Blur](https://arxiv.org/abs/2607.03855) | [Code](https://github.com/GopiRajuMatta/PRISM3D) |
-| 2025 | ICCV | [Splat-based 3D Scene Reconstruction with Extreme Motion-blur](https://openaccess.thecvf.com/content/ICCV2025/html/Jang_Splat-based_3D_Scene_Reconstruction_with_Extreme_Motion-blur_ICCV_2025_paper.html) | [Code](https://github.com/KAISTVCLAB/gs-extreme-motion-blur) |
+| 2025 | ICCV | [Splat-based 3D Scene Reconstruction with Extreme Motion-blur](https://openaccess.thecvf.com/content/ICCV2025/html/Jang_Splat-based_3D_Scene_Reconstruction_with_Extreme_Motion-blur_ICCV_2025_paper.html) | [Code](https://github.com/KAIST-VCLAB/gs-extreme-motion-blur) |
 | 2024 | ECCV | [BAD-Gaussians: Bundle Adjusted Deblur Gaussian Splatting](https://arxiv.org/abs/2403.11831) | [Code](https://github.com/WU-CVGL/BAD-Gaussians) |
 | 2024 | ECCV | [Gaussian Splatting on the Move: Blur and Rolling Shutter Compensation for Natural Camera Motion](https://arxiv.org/abs/2403.13327) | [Code](https://github.com/SpectacularAI/3dgs-deblur) |
 
@@ -262,4 +262,4 @@ Unsupervised/unpaired learning is central to training.
 | 2024 | CVPR | [Blur2Blur: Blur Conversion for Unsupervised Image Deblurring on Unknown Domains](https://arxiv.org/abs/2403.16205) | [Code](https://github.com/VinAIResearch/Blur2Blur) |
 | 2024 | CVPR | [Unsupervised Blind Image Deblurring Based on Self-Enhancement](https://openaccess.thecvf.com/content/CVPR2024/html/Chen_Unsupervised_Blind_Image_Deblurring_Based_on_Self-Enhancement_CVPR_2024_paper.html) | — |
 | 2023 | CVPR | [HyperCUT: Video Sequence from a Single Blurry Image using Unsupervised Ordering](https://arxiv.org/abs/2304.01686) | [Code](https://github.com/VinAIResearch/HyperCUT) |
-| 2023 | CVPR | [Uncertainty-Aware Unsupervised Image Deblurring with Deep Residual Prior](https://arxiv.org/abs/2210.05361) | [Code](https://github.com/xl-tang01/UAUDeblur) |
+| 2023 | CVPR | [Uncertainty-Aware Unsupervised Image Deblurring with Deep Residual Prior](https://arxiv.org/abs/2210.05361) | [Code](https://github.com/xl-tang3/UAUDeblur) |

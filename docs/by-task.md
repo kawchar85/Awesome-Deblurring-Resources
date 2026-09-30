@@ -31,7 +31,7 @@ Blur-aware NeRF, radiance-field, Gaussian-splatting, or related 3D reconstructio
 | 2026 | CVPR | [MSCD-GS: Motion-Separated Cooperative Deblurring Dynamic Reconstruction via Gaussian Splatting](https://openaccess.thecvf.com/content/CVPR2026/html/Liao_MSCD-GS_Motion-Separated_Cooperative_Deblurring_Dynamic_Reconstruction_via_Gaussian_Splatting_CVPR_2026_paper.html) | — |
 | 2026 | ECCV | [PRISM3D: Probabilistic Refinement and Robust Initialization for Physically Consistent Scene Modeling under Extreme Motion Blur](https://arxiv.org/abs/2607.03855) | [Code](https://github.com/GopiRajuMatta/PRISM3D) |
 | 2025 | CVPR | [Exploiting Deblurring Networks for Radiance Fields](https://openaccess.thecvf.com/content/CVPR2025/html/Choi_Exploiting_Deblurring_Networks_for_Radiance_Fields_CVPR_2025_paper.html) | [Code](https://github.com/haeyun-choi/DeepDeblurRF) |
-| 2025 | ICCV | [Splat-based 3D Scene Reconstruction with Extreme Motion-blur](https://openaccess.thecvf.com/content/ICCV2025/html/Jang_Splat-based_3D_Scene_Reconstruction_with_Extreme_Motion-blur_ICCV_2025_paper.html) | [Code](https://github.com/KAISTVCLAB/gs-extreme-motion-blur) |
+| 2025 | ICCV | [Splat-based 3D Scene Reconstruction with Extreme Motion-blur](https://openaccess.thecvf.com/content/ICCV2025/html/Jang_Splat-based_3D_Scene_Reconstruction_with_Extreme_Motion-blur_ICCV_2025_paper.html) | [Code](https://github.com/KAIST-VCLAB/gs-extreme-motion-blur) |
 | 2024 | CVPR | [Mitigating Motion Blur in Neural Radiance Fields with Events and Frames](https://arxiv.org/abs/2403.19780) | [Code](https://github.com/uzh-rpg/EvDeblurNeRF) |
 | 2024 | ECCV | [BAD-Gaussians: Bundle Adjusted Deblur Gaussian Splatting](https://arxiv.org/abs/2403.11831) | [Code](https://github.com/WU-CVGL/BAD-Gaussians) |
 | 2024 | ECCV | [BeNeRF: Neural Radiance Fields from a Single Blurry Image and Event Stream](https://arxiv.org/abs/2407.02174v2) | [Code](https://github.com/WU-CVGL/BeNeRF) |
@@ -47,7 +47,7 @@ Deblurring when the blur kernel/process is unknown and estimated implicitly or e
 | 2026 | ECCV | [CogSENet: Blind Image Deblurring with Blur-Conditioned Semantic Routing and Explicit Frequency Fusion](https://arxiv.org/abs/2606.30030) | — |
 | 2025 | CVPR | [Parameterized Blur Kernel Prior Learning for Local Motion Deblurring](https://openaccess.thecvf.com/content/CVPR2025/html/Fang_Parameterized_Blur_Kernel_Prior_Learning_for_Local_Motion_Deblurring_CVPR_2025_paper.html) | — |
 | 2025 | ICCV | [Blind Noisy Image Deblurring Using Residual Guidance Strategy](https://openaccess.thecvf.com/content/ICCV2025/html/Liu_Blind_Noisy_Image_Deblurring_Using_Residual_Guidance_Strategy_ICCV_2025_paper.html) | — |
-| 2025 | WACV | [Blind Image Deblurring with FFT-ReLU Sparsity Prior](https://openaccess.thecvf.com/content/WACV2025/html/Al_Radi_Blind_Image_Deblurring_with_FFT-ReLU_Sparsity_Prior_WACV_2025_paper.html) | [Code](https://github.com/Metalicana/Blind-Image-Deblurring-using-FFT-ReLU-with-Deep-Learning-Pipeline-Integration) |
+| 2025 | WACV | [Blind Image Deblurring with FFT-ReLU Sparsity Prior](https://openaccess.thecvf.com/content/WACV2025/html/Al_Radi_Blind_Image_Deblurring_with_FFT-ReLU_Sparsity_Prior_WACV_2025_paper.html) | [Code](https://github.com/Metalicana/Blind-Image-Deblurring-with-FFT-ReLU-Sparsity-Prior) |
 | 2024 | CVPR | [Motion-adaptive Separable Collaborative Filters for Blind Motion Deblurring](https://arxiv.org/abs/2404.13153) | [Code](https://github.com/ChengxuLiu/MISCFilter) |
 | 2024 | CVPR | [Real-World Efficient Blind Motion Deblurring via Blur Pixel Discretization](https://arxiv.org/abs/2404.12168) | — |
 | 2024 | CVPR | [Unsupervised Blind Image Deblurring Based on Self-Enhancement](https://openaccess.thecvf.com/content/CVPR2024/html/Chen_Unsupervised_Blind_Image_Deblurring_Based_on_Self-Enhancement_CVPR_2024_paper.html) | — |
@@ -178,7 +178,7 @@ Joint or coupled low-light enhancement and deblurring.
 |---:|---|---|---|
 | 2025 | WACV | [Deep Joint Unrolling for Deblurring and Low-Light Image Enhancement (JUDE)](https://openaccess.thecvf.com/content/WACV2025/html/Vo_Deep_Joint_Unrolling_for_Deblurring_and_Low-Light_Image_Enhancement_JUDE_WACV_2025_paper.html) | [Project](https://jude.kc-ml2.com/) |
 | 2024 | CVPR | [Fourier Priors-Guided Diffusion for Zero-Shot Joint Low-Light Enhancement and Deblurring](https://openaccess.thecvf.com/content/CVPR2024/html/Lv_Fourier_Priors-Guided_Diffusion_for_Zero-Shot_Joint_Low-Light_Enhancement_and_Deblurring_CVPR_2024_paper.html) | [Code](https://github.com/aipixel/FourierDiff) |
-| 2024 | ECCV | [Towards Real-world Event-guided Low-light Video Enhancement and Deblurring](http://vi.kaist.ac.kr/2024/07/02/towards-real-world-event-guided-low-light-video-enhancement-and-deblurring/) | [Code](https://github.com/intelpro/ELEDNet) |
+| 2024 | ECCV | [Towards Real-world Event-guided Low-light Video Enhancement and Deblurring](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/1982_ECCV_2024_paper.php) | [Code](https://github.com/intelpro/ELEDNet) |
 | 2023 | TIP | [INFWIDE: Image and Feature Space Wiener Deconvolution Network for Non-blind Image Deblurring in Low-Light Conditions](https://ieeexplore.ieee.org/document/10047966) | [Code](https://github.com/zhihongz/infwide) |
 
 ## Motion Deblurring
@@ -210,7 +210,7 @@ Removal of camera, object, or dynamic-scene motion blur.
 | 2025 | ICCV | [EVDM: Event-based Real-world Video Deblurring with Mamba](https://openaccess.thecvf.com/content/ICCV2025/html/Sun_EVDM_Event-based_Real-world_Video_Deblurring_with_Mamba_ICCV_2025_paper.html) | [Code](https://github.com/ZhijingS/EVDM) |
 | 2025 | ICCV | [Learning Deblurring Texture Prior from Unpaired Data with Diffusion Model](https://openaccess.thecvf.com/content/ICCV2025/html/Liu_Learning_Deblurring_Texture_Prior_from_Unpaired_Data_with_Diffusion_Model_ICCV_2025_paper.html) | [Code](https://github.com/ChengxuLiu/TP-Diff) |
 | 2025 | ICCV | [Separation for Better Integration: Disentangling Edge and Motion in Event-based Deblurring](https://openaccess.thecvf.com/content/ICCV2025/html/Zhu_Separation_for_Better_Integration_Disentangling_Edge_and_Motion_in_Event-based_ICCV_2025_paper.html) | — |
-| 2025 | ICCV | [Splat-based 3D Scene Reconstruction with Extreme Motion-blur](https://openaccess.thecvf.com/content/ICCV2025/html/Jang_Splat-based_3D_Scene_Reconstruction_with_Extreme_Motion-blur_ICCV_2025_paper.html) | [Code](https://github.com/KAISTVCLAB/gs-extreme-motion-blur) |
+| 2025 | ICCV | [Splat-based 3D Scene Reconstruction with Extreme Motion-blur](https://openaccess.thecvf.com/content/ICCV2025/html/Jang_Splat-based_3D_Scene_Reconstruction_with_Extreme_Motion-blur_ICCV_2025_paper.html) | [Code](https://github.com/KAIST-VCLAB/gs-extreme-motion-blur) |
 | 2025 | NeurIPS | [Asymmetric Dual-Lens Video Deblurring](https://proceedings.neurips.cc/paper_files/paper/2025/hash/3c8290b9d484baa0435f31d11e01b5b8-Abstract-Conference.html) | — |
 | 2025 | NeurIPS | [BlurDM: A Blur Diffusion Model for Image Deblurring](https://proceedings.neurips.cc/paper_files/paper/2025/hash/4b43f14df70be3b93e8c415d46df0598-Abstract-Conference.html) | [Code](https://github.com/Jin-Ting-He/BlurDM) |
 | 2025 | NeurIPS | [DeblurDiff: Real-World Image Deblurring with Generative Diffusion Models](https://proceedings.neurips.cc/paper_files/paper/2025/hash/e393677793767624f2821cec8bdd02f1-Abstract-Conference.html) | [Code](https://github.com/kkkls/DeblurDiff) |
@@ -231,9 +231,9 @@ Removal of camera, object, or dynamic-scene motion blur.
 | 2024 | ECCV | [BeNeRF: Neural Radiance Fields from a Single Blurry Image and Event Stream](https://arxiv.org/abs/2407.02174v2) | [Code](https://github.com/WU-CVGL/BeNeRF) |
 | 2024 | ECCV | [Domain-adaptive Video Deblurring via Test-time Blurring](https://arxiv.org/abs/2407.09059) | [Code](https://github.com/Jin-Ting-He/DADeblur) |
 | 2024 | ECCV | [Gaussian Splatting on the Move: Blur and Rolling Shutter Compensation for Natural Camera Motion](https://arxiv.org/abs/2403.13327) | [Code](https://github.com/SpectacularAI/3dgs-deblur) |
-| 2024 | ECCV | [Towards Real-world Event-guided Low-light Video Enhancement and Deblurring](http://vi.kaist.ac.kr/2024/07/02/towards-real-world-event-guided-low-light-video-enhancement-and-deblurring/) | [Code](https://github.com/intelpro/ELEDNet) |
+| 2024 | ECCV | [Towards Real-world Event-guided Low-light Video Enhancement and Deblurring](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/1982_ECCV_2024_paper.php) | [Code](https://github.com/intelpro/ELEDNet) |
 | 2024 | ECCV | [UniINR: Event-guided Unified Rolling Shutter Correction, Deblurring, and Interpolation](https://arxiv.org/abs/2305.15078) | [Code](https://github.com/yunfanLu/UniINR) |
-| 2024 | SIGGRAPH | [Deep Hybrid Camera Deblurring for Smartphone Cameras](https://graphics.postech.ac.kr/researches/HCDeblur/) | [Code](https://github.com/rimchang/HCDeblur) |
+| 2024 | SIGGRAPH | [Deep Hybrid Camera Deblurring for Smartphone Cameras](https://arxiv.org/abs/2312.13317) | [Code](https://github.com/rimchang/HCDeblur) |
 | 2024 | arXiv | [Gyroscope-Assisted Motion Deblurring Network](https://arxiv.org/abs/2402.06854) | — |
 | 2023 | AAAI | [Dual-Domain Attention for Image Deblurring](https://ojs.aaai.org/index.php/AAAI/article/view/25122) | [Code](https://github.com/c-yn/DDANet) |
 | 2023 | AAAI | [Intriguing Findings of Frequency Selection for Image Deblurring](https://arxiv.org/abs/2111.11745) | [Code](https://github.com/INVOKERer/DeepRFT/tree/AAAI2023) |
@@ -242,7 +242,7 @@ Removal of camera, object, or dynamic-scene motion blur.
 | 2023 | CVPR | [Hybrid Neural Rendering for Large-Scale Scenes with Motion Blur](https://arxiv.org/abs/2304.12652) | [Code](https://github.com/CVMI-Lab/HybridNeuralRendering) |
 | 2023 | CVPR | [Self-Supervised Blind Motion Deblurring With Deep Expectation Maximization](https://ieeexplore.ieee.org/document/10203880) | — |
 | 2023 | CVPR | [Self-Supervised Non-Uniform Kernel Estimation With Flow-Based Motion Prior for Blind Image Deblurring](https://openaccess.thecvf.com/content/CVPR2023/html/Fang_Self-Supervised_Non-Uniform_Kernel_Estimation_With_Flow-Based_Motion_Prior_for_Blind_CVPR_2023_paper.html) | [Code](https://github.com/Fangzhenxuan/UFPDeblur) |
-| 2023 | CVPR | [Uncertainty-Aware Unsupervised Image Deblurring with Deep Residual Prior](https://arxiv.org/abs/2210.05361) | [Code](https://github.com/xl-tang01/UAUDeblur) |
+| 2023 | CVPR | [Uncertainty-Aware Unsupervised Image Deblurring with Deep Residual Prior](https://arxiv.org/abs/2210.05361) | [Code](https://github.com/xl-tang3/UAUDeblur) |
 | 2023 | ICCV | [Exploring Temporal Frequency Spectrum in Deep Video Deblurring](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhu_Exploring_Temporal_Frequency_Spectrum_in_Deep_Video_Deblurring_ICCV_2023_paper.pdf) | — |
 | 2023 | ICCV | [Generalizing Event-Based Motion Deblurring in Real-World Scenarios](https://arxiv.org/abs/2308.05932) | [Code](https://github.com/XiangZ-0/GEM) |
 | 2023 | ICCV | [Multi-scale Residual Low-Pass Filter Network for Image Deblurring](https://ieeexplore.ieee.org/document/10377577) | — |
@@ -336,7 +336,7 @@ Deblurring using temporal/video information or producing restored video.
 | 2024 | CVPR | [Blur-aware Spatio-temporal Sparse Transformer for Video Deblurring](https://arxiv.org/abs/2406.07551) | [Code](https://github.com/huicongzhang/BSSTNet) |
 | 2024 | CVPR | [Frequency-aware Event-based Video Deblurring for Real-World Motion Blur](https://openaccess.thecvf.com/content/CVPR2024/html/Kim_Frequency-aware_Event-based_Video_Deblurring_for_Real-World_Motion_Blur_CVPR_2024_paper.html) | — |
 | 2024 | ECCV | [Domain-adaptive Video Deblurring via Test-time Blurring](https://arxiv.org/abs/2407.09059) | [Code](https://github.com/Jin-Ting-He/DADeblur) |
-| 2024 | ECCV | [Towards Real-world Event-guided Low-light Video Enhancement and Deblurring](http://vi.kaist.ac.kr/2024/07/02/towards-real-world-event-guided-low-light-video-enhancement-and-deblurring/) | [Code](https://github.com/intelpro/ELEDNet) |
+| 2024 | ECCV | [Towards Real-world Event-guided Low-light Video Enhancement and Deblurring](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/1982_ECCV_2024_paper.php) | [Code](https://github.com/intelpro/ELEDNet) |
 | 2023 | CVPR | [Deep Discriminative Spatial and Temporal Network for Efficient Video Deblurring](https://ieeexplore.ieee.org/document/10204041) | [Code](https://github.com/xuboming8/DSTNet) |
 | 2023 | ICCV | [Exploring Temporal Frequency Spectrum in Deep Video Deblurring](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhu_Exploring_Temporal_Frequency_Spectrum_in_Deep_Video_Deblurring_ICCV_2023_paper.pdf) | — |
 | 2022 | CVPR | [Multi-Scale Memory-Based Video Deblurring](https://arxiv.org/abs/2204.02977) | [Code](https://github.com/jibo27/MemDeblur) |

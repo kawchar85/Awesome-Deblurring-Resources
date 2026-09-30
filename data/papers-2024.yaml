@@ -26,7 +26,7 @@ papers:
     year: 2024
     venue: SIGGRAPH
     title: "Deep Hybrid Camera Deblurring for Smartphone Cameras"
-    paper_url: "https://graphics.postech.ac.kr/researches/HCDeblur/"
+    paper_url: "https://arxiv.org/abs/2312.13317"
     code_url: "https://github.com/rimchang/HCDeblur"
     tasks: [motion-deblurring]
     signals: [rgb]
@@ -273,7 +273,7 @@ papers:
     year: 2024
     venue: ECCV
     title: "Towards Real-world Event-guided Low-light Video Enhancement and Deblurring"
-    paper_url: "http://vi.kaist.ac.kr/2024/07/02/towards-real-world-event-guided-low-light-video-enhancement-and-deblurring/"
+    paper_url: "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/1982_ECCV_2024_paper.php"
     code_url: "https://github.com/intelpro/ELEDNet"
     tasks: [motion-deblurring, video-deblurring, low-light-deblurring]
     signals: [video, events]
