@@ -1,0 +1,292 @@
+version: 1
+papers:
+  - id: 2024-fast-diffusion-em
+    year: 2024
+    venue: arXiv
+    title: "Fast Diffusion EM: a diffusion model for blind inverse problems with application to deconvolution"
+    paper_url: "https://arxiv.org/abs/2309.00287v2"
+    code_url: "https://github.com/claroche-r/fastdiffusionem"
+    tasks: [blind-deblurring, deconvolution]
+    signals: [rgb]
+    methods: [diffusion]
+    datasets: []
+
+  - id: 2024-regression-blur
+    year: 2024
+    venue: SPIE
+    title: "Estimation of motion blur kernel parameters using regression convolutional neural networks"
+    paper_url: "https://arxiv.org/abs/2308.01381v3"
+    code_url: "https://github.com/duckduckpig/regression_blur"
+    tasks: [blind-deblurring]
+    signals: [rgb]
+    methods: [cnn, kernel-estimation]
+    datasets: []
+
+  - id: 2024-hcdeblur
+    year: 2024
+    venue: SIGGRAPH
+    title: "Deep Hybrid Camera Deblurring for Smartphone Cameras"
+    paper_url: "https://graphics.postech.ac.kr/researches/HCDeblur/"
+    code_url: "https://github.com/rimchang/HCDeblur"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: []
+    datasets: [HCBlur]
+
+  - id: 2024-mpt-catablur
+    year: 2024
+    venue: CVPR
+    title: "A Unified Framework for Microscopy Defocus Deblur with Multi-Pyramid Transformer and Contrastive Learning"
+    paper_url: "https://arxiv.org/abs/2403.02611"
+    code_url: "https://github.com/PieceZhang/MPT-CataBlur"
+    tasks: [defocus-deblurring]
+    signals: [rgb]
+    methods: [transformer]
+    datasets: []
+
+  - id: 2024-adarevd
+    year: 2024
+    venue: CVPR
+    title: "AdaRevD: Adaptive Patch Exiting Reversible Decoder Pushes the Limit of Image Deblurring"
+    paper_url: "https://arxiv.org/abs/2406.09135"
+    code_url: "https://github.com/INVOKERer/AdaRevD"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: []
+    datasets: []
+
+  - id: 2024-blur2blur
+    year: 2024
+    venue: CVPR
+    title: "Blur2Blur: Blur Conversion for Unsupervised Image Deblurring on Unknown Domains"
+    paper_url: "https://arxiv.org/abs/2403.16205"
+    code_url: "https://github.com/VinAIResearch/Blur2Blur"
+    tasks: [motion-deblurring, blur-synthesis]
+    signals: [rgb]
+    methods: [unsupervised, degradation-modeling]
+    datasets: []
+
+  - id: 2024-fourierdiff
+    year: 2024
+    venue: CVPR
+    title: "Fourier Priors-Guided Diffusion for Zero-Shot Joint Low-Light Enhancement and Deblurring"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2024/html/Lv_Fourier_Priors-Guided_Diffusion_for_Zero-Shot_Joint_Low-Light_Enhancement_and_Deblurring_CVPR_2024_paper.html"
+    code_url: "https://github.com/aipixel/FourierDiff"
+    tasks: [motion-deblurring, low-light-deblurring]
+    signals: [rgb]
+    methods: [diffusion, frequency-domain]
+    datasets: []
+
+  - id: 2024-id-blau
+    year: 2024
+    venue: CVPR
+    title: "ID-Blau: Image Deblurring by Implicit Diffusion-based reBLurring AUgmentation"
+    paper_url: "https://arxiv.org/abs/2312.10998"
+    code_url: "https://github.com/plusgood-steven/ID-Blau"
+    tasks: [motion-deblurring, blur-synthesis]
+    signals: [rgb]
+    methods: [diffusion, degradation-modeling]
+    datasets: []
+
+  - id: 2024-ldp
+    year: 2024
+    venue: CVPR
+    title: "LDP: Language-driven Dual-Pixel Image Defocus Deblurring Network"
+    paper_url: "https://arxiv.org/abs/2307.09815"
+    code_url: "https://github.com/noxsine/LDP"
+    tasks: [defocus-deblurring]
+    signals: [dual-pixel]
+    methods: []
+    datasets: []
+
+  - id: 2024-evdeblurnerf
+    year: 2024
+    venue: CVPR
+    title: "Mitigating Motion Blur in Neural Radiance Fields with Events and Frames"
+    paper_url: "https://arxiv.org/abs/2403.19780"
+    code_url: "https://github.com/uzh-rpg/EvDeblurNeRF"
+    tasks: [motion-deblurring, 3d-reconstruction]
+    signals: [rgb, events]
+    methods: [radiance-field]
+    datasets: []
+
+  - id: 2024-miscfilter
+    year: 2024
+    venue: CVPR
+    title: "Motion-adaptive Separable Collaborative Filters for Blind Motion Deblurring"
+    paper_url: "https://arxiv.org/abs/2404.13153"
+    code_url: "https://github.com/ChengxuLiu/MISCFilter"
+    tasks: [blind-deblurring, motion-deblurring]
+    signals: [rgb]
+    methods: [kernel-estimation]
+    datasets: []
+
+  - id: 2024-dualbr
+    year: 2024
+    venue: CVPR
+    title: "Motion Blur Decomposition with Cross-shutter Guidance"
+    paper_url: "https://arxiv.org/abs/2404.01120"
+    code_url: "https://github.com/jixiang2016/dualBR"
+    tasks: [blur-to-video]
+    signals: [cross-shutter]
+    methods: []
+    datasets: []
+
+  - id: 2024-uasdn
+    year: 2024
+    venue: CVPR
+    title: "Spike-guided Motion Deblurring with Unknown Modal Spatiotemporal Alignment"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Spike-guided_Motion_Deblurring_with_Unknown_Modal_Spatiotemporal_Alignment_CVPR_2024_paper.html"
+    code_url: "https://github.com/Leozhangjiyuan/UaSDN"
+    tasks: [motion-deblurring]
+    signals: [rgb, spike]
+    methods: []
+    datasets: []
+
+  - id: 2024-bsstnet
+    year: 2024
+    venue: CVPR
+    title: "Blur-aware Spatio-temporal Sparse Transformer for Video Deblurring"
+    paper_url: "https://arxiv.org/abs/2406.07551"
+    code_url: "https://github.com/huicongzhang/BSSTNet"
+    tasks: [motion-deblurring, video-deblurring]
+    signals: [video]
+    methods: [transformer]
+    datasets: []
+
+  - id: 2024-unsupervised-self-enhancement
+    year: 2024
+    venue: CVPR
+    title: "Unsupervised Blind Image Deblurring Based on Self-Enhancement"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2024/html/Chen_Unsupervised_Blind_Image_Deblurring_Based_on_Self-Enhancement_CVPR_2024_paper.html"
+    tasks: [blind-deblurring]
+    signals: [rgb]
+    methods: [unsupervised]
+    datasets: []
+
+  - id: 2024-blur-pixel-discretization
+    year: 2024
+    venue: CVPR
+    title: "Real-World Efficient Blind Motion Deblurring via Blur Pixel Discretization"
+    paper_url: "https://arxiv.org/abs/2404.12168"
+    tasks: [blind-deblurring, motion-deblurring]
+    signals: [rgb]
+    methods: [degradation-modeling]
+    datasets: []
+
+  - id: 2024-evs-joint-rs-deblur-vfi
+    year: 2024
+    venue: CVPR
+    title: "EVS-assisted Joint Deblurring Rolling-Shutter Correction and Video Frame Interpolation through Sensor Inverse Modeling"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2024/papers/Jiang_EVS-assisted_Joint_Deblurring_Rolling-Shutter_Correction_and_Video_Frame_Interpolation_through_CVPR_2024_paper.pdf"
+    tasks: [motion-deblurring, rolling-shutter-correction, frame-interpolation]
+    signals: [rgb, events]
+    methods: [physics-based]
+    datasets: []
+
+  - id: 2024-latency-correction-event-guided
+    year: 2024
+    venue: CVPR
+    title: "Latency Correction for Event-guided Deblurring and Frame Interpolation"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Latency_Correction_for_Event-guided_Deblurring_and_Frame_Interpolation_CVPR_2024_paper.pdf"
+    tasks: [motion-deblurring, frame-interpolation]
+    signals: [rgb, events]
+    methods: []
+    datasets: []
+
+  - id: 2024-frequency-aware-event-video
+    year: 2024
+    venue: CVPR
+    title: "Frequency-aware Event-based Video Deblurring for Real-World Motion Blur"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2024/html/Kim_Frequency-aware_Event-based_Video_Deblurring_for_Real-World_Motion_Blur_CVPR_2024_paper.html"
+    tasks: [motion-deblurring, video-deblurring]
+    signals: [video, events]
+    methods: [frequency-domain]
+    datasets: []
+
+  - id: 2024-gyroscope-assisted-motion-deblurring
+    year: 2024
+    venue: arXiv
+    title: "Gyroscope-Assisted Motion Deblurring Network"
+    paper_url: "https://arxiv.org/abs/2402.06854"
+    tasks: [motion-deblurring]
+    signals: [rgb, gyro]
+    methods: []
+    datasets: []
+
+  - id: 2024-bad-gaussians
+    year: 2024
+    venue: ECCV
+    title: "BAD-Gaussians: Bundle Adjusted Deblur Gaussian Splatting"
+    paper_url: "https://arxiv.org/abs/2403.11831"
+    code_url: "https://github.com/WU-CVGL/BAD-Gaussians"
+    tasks: [motion-deblurring, 3d-reconstruction]
+    signals: [rgb]
+    methods: [gaussian-splatting]
+    datasets: []
+
+  - id: 2024-benerf
+    year: 2024
+    venue: ECCV
+    title: "BeNeRF: Neural Radiance Fields from a Single Blurry Image and Event Stream"
+    paper_url: "https://arxiv.org/abs/2407.02174v2"
+    code_url: "https://github.com/WU-CVGL/BeNeRF"
+    tasks: [motion-deblurring, 3d-reconstruction]
+    signals: [rgb, events]
+    methods: [radiance-field]
+    datasets: []
+
+  - id: 2024-noise-robust-kernel-estimation
+    year: 2024
+    venue: ECCV
+    title: "Blind Image Deblurring with Noise-Robust Kernel Estimation"
+    paper_url: "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3024_ECCV_2024_paper.php"
+    code_url: "https://github.com/csleemooo/BD_noise_robust_kernel_estimation"
+    tasks: [blind-deblurring]
+    signals: [rgb]
+    methods: [kernel-estimation]
+    datasets: []
+
+  - id: 2024-dadeblur
+    year: 2024
+    venue: ECCV
+    title: "Domain-adaptive Video Deblurring via Test-time Blurring"
+    paper_url: "https://arxiv.org/abs/2407.09059"
+    code_url: "https://github.com/Jin-Ting-He/DADeblur"
+    tasks: [motion-deblurring, video-deblurring, blur-synthesis]
+    signals: [video]
+    methods: [degradation-modeling]
+    datasets: []
+
+  - id: 2024-3dgs-deblur
+    year: 2024
+    venue: ECCV
+    title: "Gaussian Splatting on the Move: Blur and Rolling Shutter Compensation for Natural Camera Motion"
+    paper_url: "https://arxiv.org/abs/2403.13327"
+    code_url: "https://github.com/SpectacularAI/3dgs-deblur"
+    tasks: [motion-deblurring, rolling-shutter-correction, 3d-reconstruction]
+    signals: [rgb]
+    methods: [gaussian-splatting]
+    datasets: []
+
+  - id: 2024-elednet
+    year: 2024
+    venue: ECCV
+    title: "Towards Real-world Event-guided Low-light Video Enhancement and Deblurring"
+    paper_url: "http://vi.kaist.ac.kr/2024/07/02/towards-real-world-event-guided-low-light-video-enhancement-and-deblurring/"
+    code_url: "https://github.com/intelpro/ELEDNet"
+    tasks: [motion-deblurring, video-deblurring, low-light-deblurring]
+    signals: [video, events]
+    methods: []
+    datasets: []
+
+  - id: 2024-uniinr
+    year: 2024
+    venue: ECCV
+    title: "UniINR: Event-guided Unified Rolling Shutter Correction, Deblurring, and Interpolation"
+    paper_url: "https://arxiv.org/abs/2305.15078"
+    code_url: "https://github.com/yunfanLu/UniINR"
+    tasks: [motion-deblurring, rolling-shutter-correction, frame-interpolation]
+    signals: [rgb, events]
+    methods: []
+    datasets: []
