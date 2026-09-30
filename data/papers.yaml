@@ -1,9 +1,4 @@
 version: 1
-migration:
-  complete_years: [2025, 2026]
-  pending_years: [2019, 2020, 2021, 2022, 2023, 2024]
-  note: "Initial structured-data migration. README remains the public source for pending years until they are migrated and validated."
-
 papers:
   - id: 2026-gyro-dvd
     year: 2026
