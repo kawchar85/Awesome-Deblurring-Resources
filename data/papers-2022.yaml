@@ -1,0 +1,240 @@
+version: 1
+papers:
+  - id: 2022-mssnet
+    year: 2022
+    venue: ECCVW
+    title: "MSSNet: Multi-Scale-Stage Network for Single Image Deblurring"
+    paper_url: "https://arxiv.org/abs/2202.09652"
+    code_url: "https://github.com/kky7/MSSNet"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: []
+    datasets: []
+
+  - id: 2022-hinet
+    year: 2022
+    venue: CVPRW
+    title: "HINet: Half Instance Normalization Network for Image Restoration"
+    paper_url: "https://arxiv.org/abs/2105.06086"
+    code_url: "https://github.com/megvii-model/HINet"
+    tasks: [image-deblurring]
+    signals: [rgb]
+    methods: [cnn]
+    datasets: []
+
+  - id: 2022-banet
+    year: 2022
+    venue: TIP
+    title: "BANet: A Blur-Aware Attention Network for Dynamic Scene Deblurring"
+    paper_url: "https://arxiv.org/abs/2101.07518"
+    code_url: "https://github.com/pp00704831/BANet-TIP-2022"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: []
+    datasets: []
+
+  - id: 2022-drbnet
+    year: 2022
+    venue: CVPR
+    title: "Learning to Deblur using Light Field Generated and Real Defocus Images"
+    paper_url: "https://arxiv.org/abs/2204.00367"
+    code_url: "https://github.com/lingyanruan/DRBNet"
+    tasks: [defocus-deblurring]
+    signals: [rgb]
+    methods: []
+    datasets: []
+
+  - id: 2022-pixel-screening
+    year: 2022
+    venue: CVPR
+    title: "Pixel Screening Based Intermediate Correction for Blind Deblurring"
+    paper_url: "https://ieeexplore.ieee.org/document/9878959"
+    tasks: [blind-deblurring]
+    signals: [rgb]
+    methods: []
+    datasets: []
+
+  - id: 2022-stochastic-refinement
+    year: 2022
+    venue: CVPR
+    title: "Deblurring via Stochastic Refinement"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2022/html/Whang_Deblurring_via_Stochastic_Refinement_CVPR_2022_paper.html"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: []
+    datasets: []
+
+  - id: 2022-xydeblur
+    year: 2022
+    venue: CVPR
+    title: "XYDeblur: Divide and Conquer for Single Image Deblurring"
+    paper_url: "https://ieeexplore.ieee.org/document/9880408"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: []
+    datasets: []
+
+  - id: 2022-evdi
+    year: 2022
+    venue: CVPR
+    title: "Unifying Motion Deblurring and Frame Interpolation with Events"
+    paper_url: "https://arxiv.org/abs/2203.12178"
+    code_url: "https://github.com/XiangZ-0/EVDI"
+    tasks: [motion-deblurring, frame-interpolation]
+    signals: [rgb, events]
+    methods: []
+    datasets: []
+
+  - id: 2022-e-cir
+    year: 2022
+    venue: CVPR
+    title: "E-CIR: Event-Enhanced Continuous Intensity Recovery"
+    paper_url: "https://arxiv.org/abs/2203.01935"
+    code_url: "https://github.com/chensong1995/E-CIR"
+    tasks: [motion-deblurring]
+    signals: [rgb, events]
+    methods: []
+    datasets: []
+
+  - id: 2022-memdeblur
+    year: 2022
+    venue: CVPR
+    title: "Multi-Scale Memory-Based Video Deblurring"
+    paper_url: "https://arxiv.org/abs/2204.02977"
+    code_url: "https://github.com/jibo27/MemDeblur"
+    tasks: [motion-deblurring, video-deblurring]
+    signals: [video]
+    methods: []
+    datasets: []
+
+  - id: 2022-learning-degradation
+    year: 2022
+    venue: ECCV
+    title: "Learning Degradation Representations for Image Deblurring"
+    paper_url: "https://arxiv.org/abs/2208.05244"
+    code_url: "https://github.com/dasongli1/Learning_degradation"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: [degradation-modeling]
+    datasets: []
+
+  - id: 2022-stripformer
+    year: 2022
+    venue: ECCV
+    title: "Stripformer: Strip Transformer for Fast Image Deblurring"
+    paper_url: "https://arxiv.org/abs/2204.04627"
+    code_url: "https://github.com/pp00704831/Stripformer-ECCV-2022-"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: [transformer]
+    datasets: []
+
+  - id: 2022-animation-from-blur
+    year: 2022
+    venue: ECCV
+    title: "Animation from Blur: Multi-modal Blur Decomposition with Motion Guidance"
+    paper_url: "https://arxiv.org/abs/2207.10123"
+    code_url: "https://github.com/zzh-tech/Animation-from-Blur"
+    tasks: [blur-to-video]
+    signals: [rgb]
+    methods: []
+    datasets: []
+
+  - id: 2022-apl
+    year: 2022
+    venue: ECCV
+    title: "United Defocus Blur Detection and Deblurring via Adversarial Promoting Learning"
+    paper_url: "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/3308_ECCV_2022_paper.php"
+    code_url: "https://github.com/wdzhao123/APL"
+    tasks: [defocus-deblurring]
+    signals: [rgb]
+    methods: []
+    datasets: []
+
+  - id: 2022-rsblur
+    year: 2022
+    venue: ECCV
+    title: "Realistic Blur Synthesis for Learning Image Deblurring"
+    paper_url: "https://arxiv.org/abs/2202.08771"
+    code_url: "https://github.com/rimchang/RSBlur"
+    tasks: [motion-deblurring, blur-synthesis]
+    signals: [rgb]
+    methods: [degradation-modeling]
+    datasets: [RSBlur]
+
+  - id: 2022-efnet
+    year: 2022
+    venue: ECCV
+    title: "Event-based Fusion for Motion Deblurring with Cross-modal Attention"
+    paper_url: "https://arxiv.org/abs/2112.00167"
+    code_url: "https://github.com/AHupuJR/EFNet"
+    tasks: [motion-deblurring]
+    signals: [rgb, events]
+    methods: []
+    datasets: []
+
+  - id: 2022-uevd
+    year: 2022
+    venue: ECCV
+    title: "Event-Guided Deblurring of Unknown Exposure Time Videos"
+    paper_url: "https://arxiv.org/abs/2112.06988"
+    code_url: "https://github.com/intelpro/UEVD_public"
+    tasks: [motion-deblurring, video-deblurring]
+    signals: [video, events]
+    methods: []
+    datasets: []
+
+  - id: 2022-stdan
+    year: 2022
+    venue: ECCV
+    title: "Spatio-Temporal Deformable Attention Network for Video Deblurring"
+    paper_url: "https://arxiv.org/abs/2207.10852"
+    code_url: "https://github.com/huicongzhang/STDAN"
+    tasks: [motion-deblurring, video-deblurring]
+    signals: [video]
+    methods: []
+    datasets: []
+
+  - id: 2022-mmp-rnn
+    year: 2022
+    venue: ECCV
+    title: "Efficient Video Deblurring Guided by Motion Magnitude"
+    paper_url: "https://arxiv.org/abs/2207.13374"
+    code_url: "https://github.com/sollynoay/MMP-RNN"
+    tasks: [motion-deblurring, video-deblurring]
+    signals: [video]
+    methods: [recurrent]
+    datasets: []
+
+  - id: 2022-erdn
+    year: 2022
+    venue: ECCV
+    title: "ERDN: Equivalent Receptive Field Deformable Network for Video Deblurring"
+    paper_url: "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/4085_ECCV_2022_paper.php"
+    code_url: "https://github.com/TencentCloud/ERDN"
+    tasks: [motion-deblurring, video-deblurring]
+    signals: [video]
+    methods: []
+    datasets: []
+
+  - id: 2022-demfi
+    year: 2022
+    venue: ECCV
+    title: "DeMFI: Deep Joint Deblurring and Multi-Frame Interpolation with Flow-Guided Attentive Correlation and Recursive Boosting"
+    paper_url: "https://arxiv.org/abs/2111.09985"
+    code_url: "https://github.com/JihyongOh/DeMFI"
+    tasks: [motion-deblurring, video-deblurring, frame-interpolation]
+    signals: [video]
+    methods: [recurrent]
+    datasets: []
+
+  - id: 2022-rawblur
+    year: 2022
+    venue: ECCV
+    title: "Towards Real-World Video Deblurring by Exploring Blur Formation Process"
+    paper_url: "https://arxiv.org/abs/2208.13184"
+    code_url: "https://github.com/ljzycmd/rawblur"
+    tasks: [motion-deblurring, video-deblurring, blur-synthesis]
+    signals: [video]
+    methods: [degradation-modeling]
+    datasets: []
