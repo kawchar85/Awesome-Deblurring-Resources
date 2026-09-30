@@ -1,0 +1,146 @@
+version: 1
+
+datasets:
+  - id: GoPro
+    name: GoPro
+    url: "https://seungjunnah.github.io/Datasets/gopro"
+    description: "3,214 blurry/sharp image pairs (2,103 train, 1,111 test) synthesized from high-frame-rate video; a standard dynamic-scene motion-deblurring benchmark."
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    capture: synthetic-from-high-fps
+
+  - id: REDS
+    name: REDS
+    url: "https://seungjunnah.github.io/Datasets/reds"
+    description: "High-frame-rate video dataset widely used to synthesize blur for video deblurring and restoration."
+    tasks: [video-deblurring, motion-deblurring]
+    signals: [video]
+    capture: high-fps-video
+
+  - id: DPDD
+    name: DPDD
+    url: "https://abuolaim.nowaty.com/eccv_2020_dp_defocus_deblurring/"
+    description: "Dual-pixel defocus dataset with 500 scenes, dual-pixel sub-aperture views, and all-in-focus ground truth."
+    tasks: [defocus-deblurring]
+    signals: [dual-pixel]
+    capture: real
+
+  - id: HIDE
+    name: HIDE
+    url: "https://github.com/joanshen0508/HA_deblur"
+    description: "8,422 human-centric blurry/sharp image pairs for motion deblurring."
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    capture: synthetic-from-high-fps
+
+  - id: RealBlur
+    name: RealBlur
+    url: "https://cg.postech.ac.kr/research/realblur/"
+    description: "4,738 real blurry/sharp pairs from 232 scenes, released as RealBlur-R (RAW) and RealBlur-J (JPEG) variants."
+    tasks: [motion-deblurring]
+    signals: [rgb, raw]
+    capture: real
+
+  - id: Deblur-NeRF
+    name: Deblur-NeRF
+    url: "https://limacv.github.io/deblurnerf/"
+    description: "Synthetic and real camera-motion/defocus-blur scenes for radiance-field deblurring."
+    tasks: [motion-deblurring, defocus-deblurring, 3d-reconstruction]
+    signals: [rgb]
+    capture: mixed
+
+  - id: RSBlur
+    name: RSBlur
+    url: "https://cg.postech.ac.kr/research/rsblur/"
+    description: "13,358 real and realistically synthesized blurry/sharp pairs for real-world image deblurring and blur synthesis."
+    tasks: [motion-deblurring, blur-synthesis]
+    signals: [rgb]
+    capture: mixed
+
+  - id: ReLoBlur
+    name: ReLoBlur
+    url: "https://leiali.github.io/ReLoBlur_homepage/index.html"
+    description: "2,405 locally blurred/sharp image pairs (2,010 train, 395 test) captured with a synchronized beam-splitting system."
+    tasks: [local-motion-deblurring]
+    signals: [rgb]
+    capture: real
+
+  - id: HCBlur
+    name: HCBlur
+    url: "https://github.com/rimchang/HCDeblur"
+    description: "Hybrid-camera smartphone deblurring dataset with synthetic and real captures from wide/ultra-wide cameras."
+    tasks: [motion-deblurring]
+    signals: [stereo]
+    capture: mixed
+
+  - id: DAVIS-Blur
+    name: DAVIS-Blur
+    url: "https://openaccess.thecvf.com/content/WACV2025W/ImageQuality/html/Morris_DaBiT_Depth_and_Blur_informed_Transformer_for_Video_Deblurring_WACVW_2025_paper.html"
+    description: "Video focal-deblurring benchmark derived from DAVIS with realistic focal blur degradations and blur maps."
+    tasks: [video-deblurring, defocus-deblurring]
+    signals: [video]
+    capture: synthetic
+
+  - id: QPDD
+    name: QPDD
+    url: "https://github.com/excllent123/QPD-Application"
+    description: "Quad-Pixel Defocus Deblurring dataset with 4,935 QP defocus/all-in-focus image pairs."
+    tasks: [defocus-deblurring]
+    signals: [quad-pixel]
+    capture: real
+
+  - id: GyroBlur
+    name: GyroBlur
+    url: "https://github.com/hmyang0727/GyroDeblurNet"
+    description: "Synthetic and real-world gyro-assisted single-image deblurring datasets introduced with GyroDeblurNet."
+    tasks: [motion-deblurring]
+    signals: [rgb, gyro]
+    capture: mixed
+
+  - id: BlurRF-Synth
+    name: BlurRF-Synth
+    url: "https://github.com/haeyun-choi/DeepDeblurRF"
+    description: "Large-scale synthetic dataset for training radiance-field deblurring frameworks."
+    tasks: [motion-deblurring, 3d-reconstruction]
+    signals: [rgb]
+    capture: synthetic
+
+  - id: T-RED
+    name: T-RED
+    url: "https://github.com/ZhijingS/EVDM"
+    description: "High-resolution event/frame video-deblurring dataset with varying exposure-time ratios."
+    tasks: [motion-deblurring, video-deblurring]
+    signals: [video, events]
+    capture: real
+
+  - id: "Extreme Motion-Blur RGB-D"
+    name: "Extreme Motion-Blur RGB-D"
+    url: "https://github.com/KAISTVCLAB/gs-extreme-motion-blur"
+    description: "RGB-D benchmark with extreme motion blur introduced for splat-based 3D scene reconstruction and deblurring."
+    tasks: [motion-deblurring, 3d-reconstruction]
+    signals: [rgb-d]
+    capture: real
+
+  - id: GyroVD
+    name: GyroVD
+    url: "https://github.com/rimchang/GyroDVD"
+    description: "Gyro-based video-deblurring dataset: GyroVD-Syn provides 50,500 training, 5,000 validation, and 7,700 test frames; GyroVD-Real provides 10,000 real-world evaluation frames."
+    tasks: [motion-deblurring, video-deblurring]
+    signals: [video, gyro]
+    capture: mixed
+
+  - id: HSD
+    name: HSD
+    url: "https://github.com/shinhoju/PECA"
+    description: "Heterogeneous Stereo Deblurring dataset built from real smartphone stereo captures for asymmetric cross-camera blur."
+    tasks: [motion-deblurring]
+    signals: [stereo]
+    capture: real
+
+  - id: CLDefocus
+    name: CLDefocus
+    url: "https://github.com/lykelee/CLDefocus"
+    description: "Large-scale synthetic lens-diverse defocus dataset generated with compound-lens wave-optics and camera ISP simulation."
+    tasks: [defocus-deblurring, blur-synthesis]
+    signals: [rgb]
+    capture: synthetic

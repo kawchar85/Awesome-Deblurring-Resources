@@ -1,0 +1,58 @@
+version: 1
+
+tasks:
+  image-deblurring: General single-image deblurring when a more specific blur type is not the primary focus.
+  motion-deblurring: Removal of camera, object, or dynamic-scene motion blur.
+  local-motion-deblurring: Deblurring spatially localized moving objects or regions.
+  defocus-deblurring: Removal of out-of-focus or depth-dependent defocus blur.
+  video-deblurring: Deblurring using temporal/video information or producing restored video.
+  blind-deblurring: Deblurring when the blur kernel/process is unknown and estimated implicitly or explicitly.
+  nonblind-deblurring: Deblurring with a known or externally estimated degradation/kernel.
+  blur-to-video: Recovering latent temporal frames or motion from a blurred observation.
+  deconvolution: Inverse filtering/deconvolution where blur removal is the central problem.
+  low-light-deblurring: Joint or coupled low-light enhancement and deblurring.
+  rolling-shutter-correction: Joint rolling-shutter correction and deblurring.
+  frame-interpolation: Joint deblurring and frame interpolation.
+  super-resolution: Joint deblurring and spatial super-resolution.
+  blur-synthesis: Modeling or generating realistic blur for training/evaluation.
+  3d-reconstruction: Blur-aware NeRF, radiance-field, Gaussian-splatting, or related 3D reconstruction.
+
+signals:
+  rgb: Standard RGB imagery.
+  raw: Camera RAW measurements.
+  video: Multiple temporally ordered RGB frames.
+  events: Event-camera measurements.
+  spike: Spike-camera measurements.
+  gyro: Gyroscope/inertial measurements.
+  dual-pixel: Dual-pixel sensor measurements.
+  quad-pixel: Quad-pixel sensor measurements.
+  polarization: Polarization measurements.
+  stereo: Multiple camera views/stereo imagery.
+  rgb-d: RGB plus depth.
+  complementary-vision-sensor: Complementary high-speed vision sensing beyond ordinary RGB/event input.
+  cross-shutter: Multiple shutter/exposure characteristics used jointly.
+
+methods:
+  cnn: Convolutional neural networks.
+  transformer: Transformer/attention-based architectures.
+  state-space: State-space/Mamba-style sequence or vision models.
+  diffusion: Diffusion/generative diffusion methods.
+  gaussian-splatting: 3D Gaussian splatting.
+  radiance-field: NeRF or other neural radiance-field approaches.
+  kernel-estimation: Explicit or parameterized blur-kernel estimation/modeling.
+  frequency-domain: Fourier/frequency-domain priors or processing central to the method.
+  unrolled: Model-based/unrolled optimization networks.
+  recurrent: Recurrent temporal architectures.
+  self-supervised: Self-supervised learning is central to training.
+  unsupervised: Unsupervised/unpaired learning is central to training.
+  physics-based: Explicit image/sensor/blur-formation physics is central to the method.
+  depth-aware: Depth is used explicitly for deblurring.
+  degradation-modeling: Explicit modeling/representation of the degradation process.
+
+rules:
+  - A paper may have multiple tasks, signals, and methods.
+  - Use the most specific task available; add image-deblurring only when a more specific task does not describe the main problem well.
+  - Sensor/input modality belongs in signals, not tasks.
+  - Architecture or learning family belongs in methods, not tasks.
+  - Use publication year and formal venue when available; use arXiv only while no formal publication venue is known.
+  - Do not infer a method tag solely from a repository name; the paper title/abstract/project description must support it.

@@ -1,0 +1,415 @@
+version: 1
+migration:
+  complete_years: [2025, 2026]
+  pending_years: [2019, 2020, 2021, 2022, 2023, 2024]
+  note: "Initial structured-data migration. README remains the public source for pending years until they are migrated and validated."
+
+papers:
+  - id: 2026-gyro-dvd
+    year: 2026
+    venue: CVPR
+    title: "Gyro-based Deep Video Deblurring"
+    paper_url: "https://cg.postech.ac.kr/researches/GyroDVD/"
+    code_url: "https://github.com/rimchang/GyroDVD"
+    tasks: [motion-deblurring, video-deblurring]
+    signals: [video, gyro]
+    methods: []
+    datasets: [GyroVD]
+
+  - id: 2026-time-specialized-event-image-alignment
+    year: 2026
+    venue: CVPR
+    title: "Time-Specialized Event-Image Alignment for Blur-to-Video Decomposition"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2026/html/Sun_Time-Specialized_Event-Image_Alignment_for_Blur-to-Video_Decomposition_CVPR_2026_paper.html"
+    tasks: [blur-to-video]
+    signals: [rgb, events]
+    methods: []
+    datasets: []
+
+  - id: 2026-tmc-deblur
+    year: 2026
+    venue: CVPR
+    title: "Spatio-Temporal Difference Guided Motion Deblurring with the Complementary Vision Sensor"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2026/html/Meng_Spatio-Temporal_Difference_Guided_Motion_Deblurring_with_the_Complementary_Vision_Sensor_CVPR_2026_paper.html"
+    code_url: "https://github.com/Tianmouc/tmcDeblur"
+    tasks: [motion-deblurring]
+    signals: [rgb, complementary-vision-sensor]
+    methods: []
+    datasets: []
+
+  - id: 2026-event-unpaired-motion-deblurring
+    year: 2026
+    venue: CVPR
+    title: "Event-based Motion Deblurring with Unpaired Data"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2026/html/Cho_Event-based_Motion_Deblurring_with_Unpaired_Data_CVPR_2026_paper.html"
+    code_url: "https://github.com/Chohoonhee/EMP"
+    tasks: [motion-deblurring]
+    signals: [rgb, events]
+    methods: [unsupervised]
+    datasets: []
+
+  - id: 2026-event-3d-gaussian-representation
+    year: 2026
+    venue: CVPR
+    title: "Event-Based Motion Deblurring Using Task-Oriented 3D Gaussian Event Representations"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2026/html/Xue_Event-Based_Motion_Deblurring_Using_Task-Oriented_3D_Gaussian_Event_Representations_CVPR_2026_paper.html"
+    tasks: [motion-deblurring]
+    signals: [rgb, events]
+    methods: [gaussian-splatting]
+    datasets: []
+
+  - id: 2026-spike-defocus
+    year: 2026
+    venue: CVPR
+    title: "Seeing Through Blur: Tackling Defocus in Spike-Based Imaging"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2026/html/Ma_Seeing_Through_Blur_Tackling_Defocus_in_Spike-Based_Imaging_CVPR_2026_paper.html"
+    tasks: [defocus-deblurring]
+    signals: [spike]
+    methods: []
+    datasets: []
+
+  - id: 2026-mscd-gs
+    year: 2026
+    venue: CVPR
+    title: "MSCD-GS: Motion-Separated Cooperative Deblurring Dynamic Reconstruction via Gaussian Splatting"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2026/html/Liao_MSCD-GS_Motion-Separated_Cooperative_Deblurring_Dynamic_Reconstruction_via_Gaussian_Splatting_CVPR_2026_paper.html"
+    tasks: [motion-deblurring, 3d-reconstruction]
+    signals: [rgb]
+    methods: [gaussian-splatting]
+    datasets: []
+
+  - id: 2026-mvssm
+    year: 2026
+    venue: CVPR Findings
+    title: "MVSSM: Motion-aware Visual State Space Model for Efficient Video Deblurring"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2026F/html/Zhou_MVSSM_Motion-aware_Visual_State_Space_Model_for_Efficient_Video_Deblurring_CVPRF_2026_paper.html"
+    tasks: [motion-deblurring, video-deblurring]
+    signals: [video]
+    methods: [state-space]
+    datasets: []
+
+  - id: 2026-cogsenet
+    year: 2026
+    venue: ECCV
+    title: "CogSENet: Blind Image Deblurring with Blur-Conditioned Semantic Routing and Explicit Frequency Fusion"
+    paper_url: "https://arxiv.org/abs/2606.30030"
+    tasks: [blind-deblurring, motion-deblurring]
+    signals: [rgb]
+    methods: [frequency-domain]
+    datasets: []
+
+  - id: 2026-event-trajectory-kernel
+    year: 2026
+    venue: ECCV
+    title: "Event-Driven Motion Deblurring via Trajectory-Based Kernel Reconstruction"
+    paper_url: "https://link.springer.com/book/10.1007/978-3-032-37314-4"
+    tasks: [motion-deblurring]
+    signals: [rgb, events]
+    methods: [kernel-estimation, physics-based]
+    datasets: []
+
+  - id: 2026-phase-unrolled-deblurring
+    year: 2026
+    venue: ECCV
+    title: "Leveraging Phase Information to Boost Unrolled Network Learning for Image Deblurring"
+    paper_url: "https://arxiv.org/abs/2607.00251"
+    tasks: [image-deblurring]
+    signals: [rgb]
+    methods: [unrolled, frequency-domain]
+    datasets: []
+
+  - id: 2026-heterogeneous-stereo-deblurring
+    year: 2026
+    venue: ECCV
+    title: "A Benchmark for Heterogeneous Stereo Deblurring with Physically- and Epipolar-Constrained Cross Attention"
+    paper_url: "https://arxiv.org/abs/2606.25962"
+    code_url: "https://github.com/shinhoju/PECA"
+    tasks: [motion-deblurring]
+    signals: [stereo]
+    methods: [transformer, physics-based]
+    datasets: [HSD]
+
+  - id: 2026-fmanet-plus-plus
+    year: 2026
+    venue: ECCV
+    title: "FMA-Net++: Motion- and Exposure-Aware Joint Video Super-Resolution and Deblurring"
+    paper_url: "https://kaist-viclab.github.io/fmanetpp_site/"
+    code_url: "https://github.com/KAIST-VICLab/FMA-Net-PlusPlus"
+    tasks: [motion-deblurring, video-deblurring, super-resolution]
+    signals: [video]
+    methods: []
+    datasets: []
+
+  - id: 2026-prism3d
+    year: 2026
+    venue: ECCV
+    title: "PRISM3D: Probabilistic Refinement and Robust Initialization for Physically Consistent Scene Modeling under Extreme Motion Blur"
+    paper_url: "https://arxiv.org/abs/2607.03855"
+    code_url: "https://github.com/GopiRajuMatta/PRISM3D"
+    tasks: [motion-deblurring, 3d-reconstruction]
+    signals: [rgb]
+    methods: [gaussian-splatting, physics-based]
+    datasets: []
+
+  - id: 2026-cldefocus
+    year: 2026
+    venue: ECCV
+    title: "Realistic Compound-Lens Defocus Blur Synthesis"
+    paper_url: "https://arxiv.org/abs/2607.05837"
+    code_url: "https://github.com/lykelee/CLDefocus"
+    tasks: [defocus-deblurring, blur-synthesis]
+    signals: [rgb]
+    methods: [physics-based, degradation-modeling]
+    datasets: [CLDefocus]
+
+  - id: 2025-fft-relu
+    year: 2025
+    venue: WACV
+    title: "Blind Image Deblurring with FFT-ReLU Sparsity Prior"
+    paper_url: "https://openaccess.thecvf.com/content/WACV2025/html/Al_Radi_Blind_Image_Deblurring_with_FFT-ReLU_Sparsity_Prior_WACV_2025_paper.html"
+    code_url: "https://github.com/Metalicana/Blind-Image-Deblurring-using-FFT-ReLU-with-Deep-Learning-Pipeline-Integration"
+    tasks: [blind-deblurring]
+    signals: [rgb]
+    methods: [frequency-domain]
+    datasets: []
+
+  - id: 2025-jude
+    year: 2025
+    venue: WACV
+    title: "Deep Joint Unrolling for Deblurring and Low-Light Image Enhancement (JUDE)"
+    paper_url: "https://openaccess.thecvf.com/content/WACV2025/html/Vo_Deep_Joint_Unrolling_for_Deblurring_and_Low-Light_Image_Enhancement_JUDE_WACV_2025_paper.html"
+    project_url: "https://jude.kc-ml2.com/"
+    tasks: [motion-deblurring, low-light-deblurring]
+    signals: [rgb]
+    methods: [unrolled]
+    datasets: []
+
+  - id: 2025-dabit
+    year: 2025
+    venue: WACV Workshops
+    title: "DaBiT: Depth and Blur informed Transformer for Video Deblurring"
+    paper_url: "https://openaccess.thecvf.com/content/WACV2025W/ImageQuality/html/Morris_DaBiT_Depth_and_Blur_informed_Transformer_for_Video_Deblurring_WACVW_2025_paper.html"
+    tasks: [video-deblurring, defocus-deblurring]
+    signals: [video]
+    methods: [transformer, depth-aware]
+    datasets: [DAVIS-Blur]
+
+  - id: 2025-motion-adaptive-event-transformer
+    year: 2025
+    venue: AAAI
+    title: "Motion-adaptive Transformer for Event-based Image Deblurring"
+    paper_url: "https://ojs.aaai.org/index.php/AAAI/article/view/32967"
+    tasks: [motion-deblurring]
+    signals: [rgb, events]
+    methods: [transformer]
+    datasets: []
+
+  - id: 2025-residual-diffusion-defocus
+    year: 2025
+    venue: AAAI
+    title: "Residual Diffusion Deblurring Model for Single Image Defocus Deblurring"
+    paper_url: "https://ojs.aaai.org/index.php/AAAI/article/view/32303"
+    tasks: [defocus-deblurring]
+    signals: [rgb]
+    methods: [diffusion]
+    datasets: []
+
+  - id: 2025-asymmetric-hierarchical-event
+    year: 2025
+    venue: AAAI
+    title: "Asymmetric Hierarchical Difference-aware Interaction Network for Event-guided Motion Deblurring"
+    paper_url: "https://ojs.aaai.org/index.php/AAAI/article/view/33003"
+    tasks: [motion-deblurring]
+    signals: [rgb, events]
+    methods: []
+    datasets: []
+
+  - id: 2025-qpdd-lmnet
+    year: 2025
+    venue: CVPR
+    title: "Quad-Pixel Image Defocus Deblurring: A New Benchmark and Model"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Quad-Pixel_Image_Defocus_Deblurring_A_New_Benchmark_and_Model_CVPR_2025_paper.html"
+    code_url: "https://github.com/excllent123/QPD-Application"
+    tasks: [defocus-deblurring]
+    signals: [quad-pixel]
+    methods: []
+    datasets: [QPDD]
+
+  - id: 2025-evssm
+    year: 2025
+    venue: CVPR
+    title: "Efficient Visual State Space Model for Image Deblurring"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2025/html/Kong_Efficient_Visual_State_Space_Model_for_Image_Deblurring_CVPR_2025_paper.html"
+    code_url: "https://github.com/kkkls/EVSSM"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: [state-space]
+    datasets: []
+
+  - id: 2025-gyro-deblur-net
+    year: 2025
+    venue: CVPR
+    title: "Gyro-based Neural Single Image Deblurring"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Gyro-based_Neural_Single_Image_Deblurring_CVPR_2025_paper.html"
+    code_url: "https://github.com/hmyang0727/GyroDeblurNet"
+    tasks: [motion-deblurring]
+    signals: [rgb, gyro]
+    methods: []
+    datasets: [GyroBlur]
+
+  - id: 2025-egdeblurring
+    year: 2025
+    venue: CVPR
+    title: "Diffusion-based Event Generation for High-Quality Image Deblurring"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2025/html/Xie_Diffusion-based_Event_Generation_for_High-Quality_Image_Deblurring_CVPR_2025_paper.html"
+    code_url: "https://github.com/XinanXie/EGDeblurring"
+    tasks: [motion-deblurring]
+    signals: [rgb, events]
+    methods: [diffusion]
+    datasets: []
+
+  - id: 2025-parameterized-kernel-prior
+    year: 2025
+    venue: CVPR
+    title: "Parameterized Blur Kernel Prior Learning for Local Motion Deblurring"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2025/html/Fang_Parameterized_Blur_Kernel_Prior_Learning_for_Local_Motion_Deblurring_CVPR_2025_paper.html"
+    tasks: [local-motion-deblurring, blind-deblurring]
+    signals: [rgb]
+    methods: [kernel-estimation]
+    datasets: []
+
+  - id: 2025-polarization-transformer
+    year: 2025
+    venue: CVPR
+    title: "A Polarization-Aided Transformer for Image Deblurring via Motion Vector Decomposition"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_A_Polarization-Aided_Transformer_for_Image_Deblurring_via_Motion_Vector_Decomposition_CVPR_2025_paper.html"
+    tasks: [motion-deblurring]
+    signals: [rgb, polarization]
+    methods: [transformer]
+    datasets: []
+
+  - id: 2025-deepdeblurrf
+    year: 2025
+    venue: CVPR
+    title: "Exploiting Deblurring Networks for Radiance Fields"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2025/html/Choi_Exploiting_Deblurring_Networks_for_Radiance_Fields_CVPR_2025_paper.html"
+    code_url: "https://github.com/haeyun-choi/DeepDeblurRF"
+    tasks: [motion-deblurring, 3d-reconstruction]
+    signals: [rgb]
+    methods: [radiance-field]
+    datasets: [BlurRF-Synth]
+
+  - id: 2025-blind-noisy-residual-guidance
+    year: 2025
+    venue: ICCV
+    title: "Blind Noisy Image Deblurring Using Residual Guidance Strategy"
+    paper_url: "https://openaccess.thecvf.com/content/ICCV2025/html/Liu_Blind_Noisy_Image_Deblurring_Using_Residual_Guidance_Strategy_ICCV_2025_paper.html"
+    tasks: [blind-deblurring]
+    signals: [rgb]
+    methods: []
+    datasets: []
+
+  - id: 2025-defocus-formation-process
+    year: 2025
+    venue: ICCV
+    title: "Performing Defocus Deblurring by Modeling its Formation Process"
+    paper_url: "https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_Performing_Defocus_Deblurring_by_Modeling_its_Formation_Process_ICCV_2025_paper.html"
+    tasks: [defocus-deblurring]
+    signals: [rgb]
+    methods: [physics-based, degradation-modeling]
+    datasets: []
+
+  - id: 2025-tp-diff
+    year: 2025
+    venue: ICCV
+    title: "Learning Deblurring Texture Prior from Unpaired Data with Diffusion Model"
+    paper_url: "https://openaccess.thecvf.com/content/ICCV2025/html/Liu_Learning_Deblurring_Texture_Prior_from_Unpaired_Data_with_Diffusion_Model_ICCV_2025_paper.html"
+    code_url: "https://github.com/ChengxuLiu/TP-Diff"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: [diffusion, unsupervised]
+    datasets: []
+
+  - id: 2025-clearsight
+    year: 2025
+    venue: ICCV
+    title: "ClearSight: Human Vision-Inspired Solutions for Event-Based Motion Deblurring"
+    paper_url: "https://openaccess.thecvf.com/content/ICCV2025/html/Lin_ClearSight_Human_Vision-Inspired_Solutions_for_Event-Based_Motion_Deblurring_ICCV_2025_paper.html"
+    tasks: [motion-deblurring]
+    signals: [rgb, events]
+    methods: []
+    datasets: []
+
+  - id: 2025-evdm
+    year: 2025
+    venue: ICCV
+    title: "EVDM: Event-based Real-world Video Deblurring with Mamba"
+    paper_url: "https://openaccess.thecvf.com/content/ICCV2025/html/Sun_EVDM_Event-based_Real-world_Video_Deblurring_with_Mamba_ICCV_2025_paper.html"
+    code_url: "https://github.com/ZhijingS/EVDM"
+    tasks: [motion-deblurring, video-deblurring]
+    signals: [video, events]
+    methods: [state-space]
+    datasets: [T-RED]
+
+  - id: 2025-concertormer
+    year: 2025
+    venue: ICCV
+    title: "Efficient Concertormer for Image Deblurring and Beyond"
+    paper_url: "https://openaccess.thecvf.com/content/ICCV2025/html/Kuo_Efficient_Concertormer_for_Image_Deblurring_and_Beyond_ICCV_2025_paper.html"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: [transformer]
+    datasets: []
+
+  - id: 2025-event-edge-motion-separation
+    year: 2025
+    venue: ICCV
+    title: "Separation for Better Integration: Disentangling Edge and Motion in Event-based Deblurring"
+    paper_url: "https://openaccess.thecvf.com/content/ICCV2025/html/Zhu_Separation_for_Better_Integration_Disentangling_Edge_and_Motion_in_Event-based_ICCV_2025_paper.html"
+    tasks: [motion-deblurring]
+    signals: [rgb, events]
+    methods: []
+    datasets: []
+
+  - id: 2025-extreme-motion-gs
+    year: 2025
+    venue: ICCV
+    title: "Splat-based 3D Scene Reconstruction with Extreme Motion-blur"
+    paper_url: "https://openaccess.thecvf.com/content/ICCV2025/html/Jang_Splat-based_3D_Scene_Reconstruction_with_Extreme_Motion-blur_ICCV_2025_paper.html"
+    code_url: "https://github.com/KAISTVCLAB/gs-extreme-motion-blur"
+    tasks: [motion-deblurring, 3d-reconstruction]
+    signals: [rgb-d]
+    methods: [gaussian-splatting]
+    datasets: [Extreme Motion-Blur RGB-D]
+
+  - id: 2025-deblurdiff
+    year: 2025
+    venue: NeurIPS
+    title: "DeblurDiff: Real-World Image Deblurring with Generative Diffusion Models"
+    paper_url: "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e393677793767624f2821cec8bdd02f1-Abstract-Conference.html"
+    code_url: "https://github.com/kkkls/DeblurDiff"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: [diffusion]
+    datasets: []
+
+  - id: 2025-blurdm
+    year: 2025
+    venue: NeurIPS
+    title: "BlurDM: A Blur Diffusion Model for Image Deblurring"
+    paper_url: "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4b43f14df70be3b93e8c415d46df0598-Abstract-Conference.html"
+    code_url: "https://github.com/Jin-Ting-He/BlurDM"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: [diffusion]
+    datasets: []
+
+  - id: 2025-asymmetric-dual-lens-video
+    year: 2025
+    venue: NeurIPS
+    title: "Asymmetric Dual-Lens Video Deblurring"
+    paper_url: "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3c8290b9d484baa0435f31d11e01b5b8-Abstract-Conference.html"
+    tasks: [motion-deblurring, video-deblurring]
+    signals: [video, stereo]
+    methods: []
+    datasets: []
