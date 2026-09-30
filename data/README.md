@@ -5,8 +5,12 @@ This directory is the machine-readable layer for the resource list. The public R
 ## Files
 
 - `taxonomy.yaml` — controlled vocabulary for tasks, input signals/sensors, and method families.
-- `papers.yaml` — structured paper records. The `migration` block states which years are complete.
+- `papers.yaml` — initial structured paper catalog (currently 2025–2026).
+- `papers-YYYY.yaml` — year-sharded paper catalogs used as historical years are migrated.
+- `migration.yaml` — authoritative migration state for complete vs pending years.
 - `datasets.yaml` — structured deblurring dataset/benchmark records.
+
+The validator aggregates `papers.yaml` and every `papers-*.yaml` file into one logical paper catalog. Year sharding is only a storage/maintenance choice; task/signal/method views remain taxonomy-driven and should not duplicate paper records.
 
 ## Paper schema
 
@@ -60,9 +64,16 @@ This is more stable than putting `event-deblurring`, `diffusion-deblurring`, and
 
 ## Migration policy
 
-The migration is incremental. A year listed in `papers.yaml -> migration.complete_years` is considered fully represented in structured data. Years in `pending_years` continue to use the README as their authoritative public listing until migrated and reviewed.
+The migration is incremental. `migration.yaml` is authoritative:
 
-Do not generate the public README entirely from `papers.yaml` until all historical years have moved from `pending_years` to `complete_years`.
+```yaml
+complete_years: [2024, 2025, 2026]
+pending_years: [2019, 2020, 2021, 2022, 2023]
+```
+
+A year in `complete_years` must have structured paper records. Years in `pending_years` continue to use the public README as their authoritative listing until migrated and reviewed.
+
+Do not generate the public README entirely from structured data until all historical years have moved from `pending_years` to `complete_years`.
 
 ## Validation
 
@@ -73,4 +84,4 @@ python -m pip install pyyaml
 python scripts/validate_data.py
 ```
 
-The validator checks required fields, unique paper/dataset IDs, duplicate normalized paper titles, taxonomy values, dataset references, and URL shape.
+The validator checks required fields, unique paper/dataset IDs across all paper files, duplicate normalized paper titles, taxonomy values, dataset references, URL shape, and migration-year consistency.
