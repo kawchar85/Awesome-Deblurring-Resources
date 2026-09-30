@@ -37,6 +37,8 @@ methods:
   transformer: Transformer/attention-based architectures.
   state-space: State-space/Mamba-style sequence or vision models.
   diffusion: Diffusion/generative diffusion methods.
+  gan: Generative-adversarial-network-based restoration.
+  generative-prior: Pretrained generative models used explicitly as image/degradation priors.
   gaussian-splatting: 3D Gaussian splatting.
   radiance-field: NeRF or other neural radiance-field approaches.
   kernel-estimation: Explicit or parameterized blur-kernel estimation/modeling.

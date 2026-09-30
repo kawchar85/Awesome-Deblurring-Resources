@@ -1,0 +1,56 @@
+version: 1
+papers:
+  - id: 2019-deblurgan-v2
+    year: 2019
+    venue: ICCV
+    title: "DeblurGAN-v2: Deblurring (Orders-of-Magnitude) Faster and Better"
+    paper_url: "https://arxiv.org/abs/1908.03826v1"
+    code_url: "https://github.com/VITA-Group/DeblurGANv2"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: [gan]
+    datasets: []
+
+  - id: 2019-pretrained-generative-priors
+    year: 2019
+    venue: BMVC
+    title: "Blind Image Deconvolution using Pretrained Generative Priors"
+    paper_url: "https://arxiv.org/abs/1908.07404v1"
+    code_url: "https://github.com/axium/Blind-Image-Deconvolution-using-Deep-Generative-Priors"
+    tasks: [blind-deblurring, deconvolution]
+    signals: [rgb]
+    methods: [generative-prior]
+    datasets: []
+
+  - id: 2019-high-noise-blind-deblurring
+    year: 2019
+    venue: arXiv
+    title: "Efficient Blind Deblurring under High Noise Levels"
+    paper_url: "https://arxiv.org/abs/1904.09154v2"
+    code_url: "https://github.com/kidanger/high-noise-deblurring"
+    tasks: [blind-deblurring]
+    signals: [rgb]
+    methods: [kernel-estimation]
+    datasets: []
+
+  - id: 2019-dmphn
+    year: 2019
+    venue: CVPR
+    title: "Deep Stacked Hierarchical Multi-Patch Network for Image Deblurring"
+    paper_url: "https://arxiv.org/abs/1904.03468"
+    code_url: "https://github.com/HongguangZhang/DMPHN-cvpr19-master"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: [cnn]
+    datasets: []
+
+  - id: 2019-parameter-selective-sharing
+    year: 2019
+    venue: CVPR
+    title: "Dynamic Scene Deblurring with Parameter Selective Sharing and Nested Skip Connections"
+    paper_url: "https://ieeexplore.ieee.org/document/8953950"
+    code_url: "https://github.com/firenxygao/deblur"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: [cnn]
+    datasets: []
