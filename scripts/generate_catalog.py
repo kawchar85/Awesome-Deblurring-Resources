@@ -38,6 +38,27 @@ def label(value: str) -> str:
     return special.get(value, value.replace("-", " ").title())
 
 
+def compact_task_label(value: str) -> str:
+    compact = {
+        "image-deblurring": "Image",
+        "motion-deblurring": "Motion",
+        "local-motion-deblurring": "Local Motion",
+        "defocus-deblurring": "Defocus",
+        "video-deblurring": "Video",
+        "blind-deblurring": "Blind",
+        "nonblind-deblurring": "Non-blind",
+        "blur-to-video": "Blur-to-Video",
+        "deconvolution": "Deconvolution",
+        "low-light-deblurring": "Low-light",
+        "rolling-shutter-correction": "Rolling Shutter",
+        "frame-interpolation": "Frame Interpolation",
+        "super-resolution": "Super-Resolution",
+        "blur-synthesis": "Blur Synthesis",
+        "3d-reconstruction": "3D Reconstruction",
+    }
+    return compact.get(value, label(value))
+
+
 def md_link(text: str, url: str | None) -> str:
     return f"[{text}]({url})" if url else text
 
@@ -50,8 +71,24 @@ def resource_link(paper: dict) -> str:
     return "—"
 
 
-def tags(values: list[str]) -> str:
-    return " · ".join(f"`{value}`" for value in values) if values else "—"
+def display_values(values: list[str], *, compact_tasks: bool = False) -> str:
+    if not values:
+        return "—"
+    formatter = compact_task_label if compact_tasks else label
+    return " · ".join(formatter(value) for value in values)
+
+
+def paper_table(papers: list[dict]) -> list[str]:
+    lines = [
+        "| Venue | Paper | Task | Resource |",
+        "|---|---|---|---|",
+    ]
+    for paper in papers:
+        lines.append(
+            f"| {paper['venue']} | {md_link(paper['title'], paper['paper_url'])} | "
+            f"{display_values(paper.get('tasks', []), compact_tasks=True)} | {resource_link(paper)} |"
+        )
+    return lines
 
 
 def write_readme_preview(out: Path, papers: list[dict], datasets: list[dict], migration: dict) -> None:
@@ -91,19 +128,22 @@ def write_readme_preview(out: Path, papers: list[dict], datasets: list[dict], mi
         "",
     ]
 
-    for year in years:
-        lines += [
-            f"## {year} Papers",
-            "",
-            "| Venue | Paper | Task | Resource |",
-            "|---|---|---|---|",
-        ]
-        for paper in [p for p in papers if p["year"] == year]:
-            lines.append(
-                f"| {paper['venue']} | {md_link(paper['title'], paper['paper_url'])} | "
-                f"{tags(paper.get('tasks', []))} | {resource_link(paper)} |"
-            )
-        lines.append("")
+    for index, year in enumerate(years):
+        year_papers = [p for p in papers if p["year"] == year]
+        if index < 2:
+            lines += [f"## {year} Papers", "", *paper_table(year_papers), ""]
+        else:
+            lines += [
+                f'<a id="{year}-papers"></a>',
+                "",
+                "<details>",
+                f"<summary><strong>{year} Papers ({len(year_papers)})</strong></summary>",
+                "",
+                *paper_table(year_papers),
+                "",
+                "</details>",
+                "",
+            ]
 
     lines += [
         "## Datasets & Benchmarks",
@@ -113,8 +153,9 @@ def write_readme_preview(out: Path, papers: list[dict], datasets: list[dict], mi
     ]
     for dataset in datasets:
         lines.append(
-            f"| {dataset['name']} | {tags(dataset.get('tasks', []))} | {tags(dataset.get('signals', []))} | "
-            f"{dataset.get('capture', '—')} | {md_link('Resource', dataset['url'])} |"
+            f"| {dataset['name']} | {display_values(dataset.get('tasks', []), compact_tasks=True)} | "
+            f"{display_values(dataset.get('signals', []))} | {dataset.get('capture', '—')} | "
+            f"{md_link('Resource', dataset['url'])} |"
         )
 
     lines += [
@@ -155,7 +196,9 @@ def write_index(out: Path, title: str, dimension: str, papers: list[dict], taxon
         "",
     ]
     for key in sorted(groups, key=lambda k: (-len(groups[k]), k)):
-        lines.append(f"- [{label(key)}](#{key}) — {len(groups[key])} papers")
+        count = len(groups[key])
+        noun = "paper" if count == 1 else "papers"
+        lines.append(f"- [{label(key)}](#{key}) — {count} {noun}")
 
     for key in sorted(groups):
         lines += ["", f"## {label(key)}", ""]
