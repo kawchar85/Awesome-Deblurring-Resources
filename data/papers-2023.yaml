@@ -147,7 +147,7 @@ papers:
     venue: CVPR
     title: "Uncertainty-Aware Unsupervised Image Deblurring with Deep Residual Prior"
     paper_url: "https://arxiv.org/abs/2210.05361"
-    code_url: "https://github.com/xl-tang01/UAUDeblur"
+    code_url: "https://github.com/xl-tang3/UAUDeblur"
     tasks: [motion-deblurring]
     signals: [rgb]
     methods: [unsupervised]
