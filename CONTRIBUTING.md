@@ -1,66 +1,88 @@
 # Contributing to Awesome-Deblurring-Resources
 
-Thank you for considering contributing to this repository! Your contributions help build a comprehensive and valuable resource for researchers and practitioners in image and video deblurring. Here are some guidelines to help you get started.
+Thank you for helping keep this collection accurate and useful for researchers and practitioners working on image and video deblurring.
+
+## What Belongs in This Repository
+
+Good additions include work where deblurring, blur formation/synthesis, or reconstruction from blurred observations is a central research problem. Relevant areas include image and video deblurring, motion and defocus blur, blind deconvolution, event/gyro/spike-assisted deblurring, rolling-shutter correction with deblurring, blur-aware NeRF/Gaussian Splatting, and deblurring-specific datasets or benchmarks.
+
+Please avoid adding generic image-restoration papers or general-purpose datasets solely because they can be used for deblurring. The connection to blur/deblurring should be substantive.
 
 ## How to Contribute
 
-1. **Fork the Repository**: Fork the repository to your GitHub account.
-2. **Clone Your Fork**: Clone your forked repository to your local machine.
-    ```bash
-    git clone https://github.com/user-name/repo-name.git
-    ```
-3. **Create a New Branch**: Make a new branch for your changes.
-    ```bash
-    git checkout -b feature/your-feature-name
-    ```
-4. **Make Your Changes**: Add your contributions to the appropriate section.
-5. **Commit and Push**: Commit your changes with a descriptive message and push to your fork.
-    ```bash
-    git add .
-    git commit -m "Add new paper/dataset: [Paper/Model/Project Name]"
-    git push origin feature/your-feature-name
-    ```
-6. **Create a Pull Request**: Go to the original repository and create a pull request from your fork.
+1. **Fork the repository.**
+2. **Clone your fork.**
+   ```bash
+   git clone https://github.com/<your-username>/Awesome-Deblurring-Resources.git
+   ```
+3. **Create a branch.**
+   ```bash
+   git checkout -b add/<paper-or-dataset-name>
+   ```
+4. **Make your changes** in the appropriate section.
+5. **Commit and push.**
+   ```bash
+   git add .
+   git commit -m "Add <paper-or-dataset-name>"
+   git push origin add/<paper-or-dataset-name>
+   ```
+6. **Open a pull request** against the main repository.
 
-## Guidelines for Contributing
+## Adding Papers
 
-### 1. Adding New Papers
+Use the existing table format:
 
-- **Format**: Add new papers to the appropriate yearly section in the following format:
-    ```markdown
-    | Venue | Paper | Link |
-    |-------|-------|------|
-    ```
-- **Paper Link**: Use the paper's official URL (arXiv, conference/journal webpage).
-- **Code Link**: Use the model name as the link text if available (e.g., `[ModelName](https://github.com/user/repo)`); otherwise, use a generic link.
+```markdown
+| Venue | Paper | Link |
+|-------|-------|------|
+| CVPR | [Paper Title](https://official-paper-link) | [Code](https://github.com/owner/repo) |
+```
 
-### 2. Adding New Datasets
+### Paper guidelines
 
-- **Format**: Add new datasets to the "Datasets" section in the following format:
-    ```markdown
-    | Name | Description | Link |
-    |------|-------------|------|
-    ```
-- **Description**: Provide a concise description of the dataset (what it includes, its purpose, etc.).
-- **Link**: Include the official URL for the dataset.
+- Prefer the official conference/journal page, proceedings page, DOI, or arXiv record for the paper link.
+- Prefer the authors' official implementation for the code/project link.
+- If no implementation is publicly available, use `-` rather than an unofficial reimplementation.
+- **Use the publication venue and publication year when a paper has been formally published.** For example, a paper posted to arXiv in 2024 and published at WACV 2025 belongs in the 2025 section as WACV.
+- Use `arXiv` as the venue only when no formal publication venue is known yet.
+- Avoid duplicate entries. Check both the title and paper/arXiv link before adding a new row.
+- Keep titles and venue names consistent with the official publication record.
 
-### 3. Typos/Bug Fixes
+## Adding Datasets
 
-- If you find any errors, such as incorrect links, typos, or misplaced papers/datasets, please follow these steps:
-    - **Describe the Issue**: Clearly describe the issue in the pull request or commit message.
-    - **Propose a Fix**: Update the incorrect link, correct the placement, or fix the typo directly in the relevant section.
-    - **Commit Message**: Use a descriptive commit message, e.g., "Fix broken link for [Paper Name]" or "Correct paper placement for [Year]."
+Use the existing table format:
+
+```markdown
+| Name | Description | Link |
+|------|-------------|------|
+| Dataset Name | Concise description of its deblurring use, scale, and distinguishing characteristics. | [Dataset](https://official-link) |
+```
+
+### Dataset guidelines
+
+- Prefer the official project, dataset, or authors' repository link.
+- Include datasets designed for deblurring, blur synthesis, blur-aware reconstruction, or a clearly related benchmark.
+- Keep descriptions concise and factual. Include dataset scale when it is clearly documented by the authors.
+- Do not add broad general-purpose datasets unless they contain a dedicated blur/deblurring benchmark or protocol relevant to this collection.
+
+## Fixes and Maintenance
+
+Corrections are welcome, including:
+
+- broken or outdated links;
+- incorrect publication years or venues;
+- duplicate entries;
+- missing official code/project links;
+- dataset statistics or descriptions that conflict with the authors' documentation;
+- spelling and formatting errors.
+
+When correcting factual information, please include the authoritative source in the pull-request description when practical.
 
 ## General Guidelines
 
-- Ensure all links are valid and point to the correct resources.
-- Avoid duplicate entries.
-- Follow the existing formatting for consistency.
-- Add only relevant and high-quality resources.
-
-## Code of Conduct
-
-We adhere to a Code of Conduct that requires contributors to be respectful, inclusive, and collaborative.
-
+- Keep additions focused and high quality rather than maximizing list size.
+- Prefer primary sources over aggregator pages.
+- Preserve the existing Markdown formatting unless a change is intentionally restructuring the repository.
+- Be respectful and constructive in issues, pull requests, and reviews.
 
 Thank you for contributing!
