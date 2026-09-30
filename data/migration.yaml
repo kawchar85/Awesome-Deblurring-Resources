@@ -1,4 +1,4 @@
 version: 1
-complete_years: [2023, 2024, 2025, 2026]
-pending_years: [2019, 2020, 2021, 2022]
+complete_years: [2022, 2023, 2024, 2025, 2026]
+pending_years: [2019, 2020, 2021]
 note: "Structured migration is incremental. The README remains authoritative for pending years until each year is migrated and validated."
