@@ -1,0 +1,110 @@
+version: 1
+papers:
+  - id: 2021-blur-kernel-space
+    year: 2021
+    venue: CVPR
+    title: "Explore Image Deblurring via Encoded Blur Kernel Space"
+    paper_url: "https://openaccess.thecvf.com/content/CVPR2021/html/Tran_Explore_Image_Deblurring_via_Encoded_Blur_Kernel_Space_CVPR_2021_paper.html"
+    code_url: "https://github.com/VinAIResearch/blur-kernel-space-exploring"
+    tasks: [blind-deblurring, motion-deblurring]
+    signals: [rgb]
+    methods: [kernel-estimation]
+    datasets: []
+
+  - id: 2021-mprnet
+    year: 2021
+    venue: CVPR
+    title: "Multi-Stage Progressive Image Restoration"
+    paper_url: "https://arxiv.org/abs/2102.02808"
+    code_url: "https://github.com/swz30/MPRNet"
+    tasks: [image-deblurring]
+    signals: [rgb]
+    methods: [cnn]
+    datasets: []
+
+  - id: 2021-defmo
+    year: 2021
+    venue: CVPR
+    title: "DeFMO: Deblurring and Shape Recovery of Fast Moving Objects"
+    paper_url: "https://arxiv.org/abs/2012.00595"
+    code_url: "https://github.com/rozumden/DeFMO"
+    tasks: [local-motion-deblurring]
+    signals: [rgb]
+    methods: []
+    datasets: []
+
+  - id: 2021-arvo
+    year: 2021
+    venue: CVPR
+    title: "ARVo: Learning All-Range Volumetric Correspondence for Video Deblurring"
+    paper_url: "https://arxiv.org/abs/2103.04260"
+    tasks: [motion-deblurring, video-deblurring]
+    signals: [video]
+    methods: []
+    datasets: []
+
+  - id: 2021-rscd
+    year: 2021
+    venue: CVPR
+    title: "Towards Rolling Shutter Correction and Deblurring in Dynamic Scenes"
+    paper_url: "https://arxiv.org/abs/2104.01601"
+    code_url: "https://github.com/zzh-tech/RSCD"
+    tasks: [motion-deblurring, rolling-shutter-correction]
+    signals: [rgb]
+    methods: [physics-based]
+    datasets: []
+
+  - id: 2021-digital-gimbal
+    year: 2021
+    venue: CVPR
+    title: "Digital Gimbal: End-to-end Deep Image Stabilization with Learnable Exposure Times"
+    paper_url: "https://arxiv.org/abs/2012.04515"
+    code_url: "https://github.com/omer11a/digital-gimbal"
+    tasks: [motion-deblurring]
+    signals: [video]
+    methods: [degradation-modeling]
+    datasets: []
+
+  - id: 2021-d2net
+    year: 2021
+    venue: ICCV
+    title: "Bringing Events into Video Deblurring with Non-consecutively Blurry Frames"
+    paper_url: "https://ieeexplore.ieee.org/document/9711143"
+    code_url: "https://github.com/shangwei5/D2Net"
+    tasks: [motion-deblurring, video-deblurring]
+    signals: [video, events]
+    methods: []
+    datasets: []
+
+  - id: 2021-mimo-unet
+    year: 2021
+    venue: ICCV
+    title: "Rethinking Coarse-to-Fine Approach in Single Image Deblurring"
+    paper_url: "https://arxiv.org/abs/2108.05054"
+    code_url: "https://github.com/chosj95/MIMO-UNet"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: [cnn]
+    datasets: []
+
+  - id: 2021-kpac
+    year: 2021
+    venue: ICCV
+    title: "Single Image Defocus Deblurring Using Kernel-Sharing Parallel Atrous Convolutions"
+    paper_url: "https://arxiv.org/abs/2108.09108"
+    code_url: "https://github.com/HyeongseokSon1/KPAC"
+    tasks: [defocus-deblurring]
+    signals: [rgb]
+    methods: [cnn, kernel-estimation]
+    datasets: []
+
+  - id: 2021-gkmnet
+    year: 2021
+    venue: NeurIPS
+    title: "Gaussian Kernel Mixture Network for Single Image Defocus Deblurring"
+    paper_url: "https://openreview.net/forum?id=kSR-_SVzDR-"
+    code_url: "https://github.com/csZcWu/GKMNet"
+    tasks: [defocus-deblurring]
+    signals: [rgb]
+    methods: [kernel-estimation]
+    datasets: []
