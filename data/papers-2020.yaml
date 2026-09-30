@@ -1,0 +1,227 @@
+version: 1
+papers:
+  - id: 2020-dwdn
+    year: 2020
+    venue: NeurIPS
+    title: "Deep Wiener Deconvolution: Wiener Meets Deep Learning for Image Deblurring"
+    paper_url: "https://arxiv.org/abs/2103.09962v1"
+    code_url: "https://gitlab.mpi-klsb.mpg.de/jdong/dwdn"
+    tasks: [nonblind-deblurring, deconvolution]
+    signals: [rgb]
+    methods: [frequency-domain]
+    datasets: []
+
+  - id: 2020-raw-image-deblurring
+    year: 2020
+    venue: IEEE
+    title: "Raw Image Deblurring"
+    paper_url: "https://arxiv.org/abs/2012.04264v1"
+    code_url: "https://github.com/bob831009/raw_image_deblurring"
+    tasks: [motion-deblurring]
+    signals: [raw]
+    methods: [cnn]
+    datasets: []
+
+  - id: 2020-deblur-pmp
+    year: 2020
+    venue: TCSVT
+    title: "A Simple Local Minimal Intensity Prior and An Improved Algorithm for Blind Image Deblurring"
+    paper_url: "https://arxiv.org/abs/1906.06642v5"
+    code_url: "https://github.com/FWen/deblur-pmp"
+    tasks: [blind-deblurring]
+    signals: [rgb]
+    methods: [kernel-estimation]
+    datasets: []
+
+  - id: 2020-cpcr
+    year: 2020
+    venue: ECCV
+    title: "End-to-end Interpretable Learning of Non-blind Image Deblurring"
+    paper_url: "https://arxiv.org/abs/2007.01769v2"
+    code_url: "https://github.com/teboli/CPCR"
+    tasks: [nonblind-deblurring]
+    signals: [rgb]
+    methods: [unrolled]
+    datasets: []
+
+  - id: 2020-dau-convnet
+    year: 2020
+    venue: IJCV
+    title: "Spatially-Adaptive Filter Units for Compact and Efficient Deep Neural Networks"
+    paper_url: "https://arxiv.org/abs/1902.07474v2"
+    code_url: "https://github.com/skokec/DAU-ConvNet"
+    tasks: [image-deblurring]
+    signals: [rgb]
+    methods: [cnn]
+    datasets: []
+
+  - id: 2020-learn-optimizer-rgdn
+    year: 2020
+    venue: TNNLS
+    title: "Learning Deep Gradient Descent Optimization for Image Deconvolution"
+    paper_url: "https://arxiv.org/abs/1804.03368v2"
+    code_url: "https://github.com/donggong1/learn-optimizer-rgdn"
+    tasks: [deconvolution, nonblind-deblurring]
+    signals: [rgb]
+    methods: [unrolled]
+    datasets: []
+
+  - id: 2020-channel-attention-blind
+    year: 2020
+    venue: TCSVT
+    title: "Deep Convolutional-Neural-Network-Based Channel Attention for Single Image Dynamic Scene Blind Deblurring"
+    paper_url: "https://ieeexplore.ieee.org/document/9247132"
+    tasks: [blind-deblurring, motion-deblurring]
+    signals: [rgb]
+    methods: [cnn]
+    datasets: []
+
+  - id: 2020-cdvd-tsp
+    year: 2020
+    venue: CVPR
+    title: "Cascaded Deep Video Deblurring Using Temporal Sharpness Prior"
+    paper_url: "https://arxiv.org/abs/2004.02501"
+    code_url: "https://github.com/csbhr/CDVD-TSP"
+    tasks: [motion-deblurring, video-deblurring]
+    signals: [video]
+    methods: []
+    datasets: []
+
+  - id: 2020-event-motion-deblurring
+    year: 2020
+    venue: CVPR
+    title: "Learning Event-Based Motion Deblurring"
+    paper_url: "https://ieeexplore.ieee.org/document/9156741"
+    tasks: [motion-deblurring]
+    signals: [rgb, events]
+    methods: []
+    datasets: []
+
+  - id: 2020-vem-nbd
+    year: 2020
+    venue: CVPR
+    title: "Variational-EM-Based Deep Learning for Noise-Blind Image Deblurring"
+    paper_url: "https://ieeexplore.ieee.org/document/9157497"
+    code_url: "https://github.com/ysnan/VEM-NBD"
+    tasks: [blind-deblurring]
+    signals: [rgb]
+    methods: [kernel-estimation]
+    datasets: []
+
+  - id: 2020-spatially-variant-deconvolution
+    year: 2020
+    venue: CVPR
+    title: "Efficient Dynamic Scene Deblurring Using Spatially Variant Deconvolution Network With Optical Flow Guided Training"
+    paper_url: "https://openaccess.thecvf.com/content_CVPR_2020/papers/Yuan_Efficient_Dynamic_Scene_Deblurring_Using_Spatially_Variant_Deconvolution_Network_With_CVPR_2020_paper.pdf"
+    tasks: [motion-deblurring, deconvolution]
+    signals: [rgb]
+    methods: [cnn]
+    datasets: []
+
+  - id: 2020-realistic-blurring
+    year: 2020
+    venue: CVPR
+    title: "Deblurring by Realistic Blurring"
+    paper_url: "https://arxiv.org/abs/2004.01860"
+    code_url: "https://github.com/HDCVLab/Deblurring-by-Realistic-Blurring"
+    tasks: [motion-deblurring, blur-synthesis]
+    signals: [rgb]
+    methods: [degradation-modeling]
+    datasets: []
+
+  - id: 2020-saphn
+    year: 2020
+    venue: CVPR
+    title: "Spatially-Attentive Patch-Hierarchical Network for Adaptive Motion Deblurring"
+    paper_url: "https://arxiv.org/abs/2004.05343"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: []
+    datasets: []
+
+  - id: 2020-analysis-synthesis-pair
+    year: 2020
+    venue: CVPR
+    title: "Deblurring Using Analysis-Synthesis Networks Pair"
+    paper_url: "https://arxiv.org/abs/2004.02956"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: [cnn]
+    datasets: []
+
+  - id: 2020-estrnn
+    year: 2020
+    venue: ECCV
+    title: "Efficient Spatio-Temporal Recurrent Neural Network for Video Deblurring"
+    paper_url: "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123510188.pdf"
+    code_url: "https://github.com/zzh-tech/ESTRNN"
+    tasks: [motion-deblurring, video-deblurring]
+    signals: [video]
+    methods: [recurrent]
+    datasets: []
+
+  - id: 2020-mtrnn
+    year: 2020
+    venue: ECCV
+    title: "Multi-Temporal Recurrent Neural Networks For Progressive Non-Uniform Single Image Deblurring With Incremental Temporal Training"
+    paper_url: "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123510324.pdf"
+    code_url: "https://github.com/Dong1P/MTRNN"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: [recurrent]
+    datasets: []
+
+  - id: 2020-ledvdi
+    year: 2020
+    venue: ECCV
+    title: "Learning Event-Driven Video Deblurring and Interpolation"
+    paper_url: "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123530681.pdf"
+    code_url: "https://github.com/Lynn0306/LEDVDI"
+    tasks: [motion-deblurring, video-deblurring, frame-interpolation]
+    signals: [video, events]
+    methods: []
+    datasets: []
+
+  - id: 2020-dual-pixel-defocus
+    year: 2020
+    venue: ECCV
+    title: "Defocus Deblurring Using Dual-Pixel Data"
+    paper_url: "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123550120.pdf"
+    code_url: "https://github.com/Abdullah-Abuolaim/defocus-deblurring-dual-pixel"
+    tasks: [defocus-deblurring]
+    signals: [dual-pixel]
+    methods: []
+    datasets: [DPDD]
+
+  - id: 2020-realblur
+    year: 2020
+    venue: ECCV
+    title: "Real-World Blur Dataset for Learning and Benchmarking Deblurring Algorithms"
+    paper_url: "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700188.pdf"
+    code_url: "https://github.com/rimchang/RealBlur"
+    tasks: [motion-deblurring]
+    signals: [rgb]
+    methods: []
+    datasets: [RealBlur]
+
+  - id: 2020-oid
+    year: 2020
+    venue: ECCV
+    title: "OID: Outlier Identifying and Discarding in Blind Image Deblurring"
+    paper_url: "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700596.pdf"
+    project_url: "https://drive.google.com/file/d/19PCEXVs6imWqqae37r5By-OCUlrNGHnd/view"
+    tasks: [blind-deblurring]
+    signals: [rgb]
+    methods: [kernel-estimation]
+    datasets: []
+
+  - id: 2020-enhanced-sparse-model
+    year: 2020
+    venue: ECCV
+    title: "Enhanced Sparse Model for Blind Deblurring"
+    paper_url: "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700630.pdf"
+    project_url: "https://drive.google.com/file/d/1HgLrWWh0Lx69kRh8xkm_peqNha1lNIOG/view"
+    tasks: [blind-deblurring]
+    signals: [rgb]
+    methods: [kernel-estimation]
+    datasets: []
